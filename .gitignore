@@ -1,0 +1,66 @@
+# Node
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Vite cache
+.cache/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pytest_cache/
+.venv/
+venv/
+ENV/
+env/
+
+# Build / distribution
+dist/
+build/
+
+# Coverage
+coverage/
+coverage.*
+
+# Database
+*.sqlite3
+*.db
+*.sqlite
+
+# Packages
+*.tgz
+
+# Misc
+*.class
+
+# Keep local dev files out
+/local.env
+
+# End of file

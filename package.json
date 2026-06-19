@@ -1,0 +1,22 @@
+{
+  "name": "navis",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Navis — Event-Driven Congestion Intelligence Platform for Bengaluru Traffic Police",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "preprocess": "python scripts/preprocess.py"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0",
+    "leaflet": "^1.9.4",
+    "leaflet.heat": "^0.2.0",
+    "leaflet.markercluster": "^1.5.3"
+  }
+}

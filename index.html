@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navis | Event-Driven Congestion Platform</title>
+  <meta name="description" content="AI-powered event congestion forecasting and resource deployment platform for Bengaluru Traffic Police" />
+
+  <link rel="icon" type="image/png" href="/logo.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap" rel="stylesheet" />
+
+  <!-- Leaflet CSS (fallback map provider) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+
+  <link rel="stylesheet" href="/src/index.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Top Bar -->
+    <header id="topbar">
+      <div class="topbar-brand">
+        <img src="/logo.png" alt="Navis" class="brand-logo" />
+        <div class="brand-text">
+          <h1>Navis</h1>
+          <span class="brand-subtitle">Event-Driven Congestion Platform</span>
+        </div>
+      </div>
+      <nav class="topbar-modes" id="mode-switcher">
+        <button class="mode-btn active" data-mode="forecast" id="btn-mode-forecast">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <span>Forecast</span>
+        </button>
+        <button class="mode-btn" data-mode="explore" id="btn-mode-explore">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <span>Explore</span>
+        </button>
+        <button class="mode-btn" data-mode="learning" id="btn-mode-learning">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          <span>Learning</span>
+        </button>
+      </nav>
+      <div class="topbar-stats" id="topbar-stats">
+        <div class="stat-chip" id="stat-total">
+          <span class="stat-value">—</span>
+          <span class="stat-label">Incidents</span>
+        </div>
+        <div class="stat-chip" id="stat-events">
+          <span class="stat-value">—</span>
+          <span class="stat-label">Events</span>
+        </div>
+        <div class="stat-chip" id="stat-corridors">
+          <span class="stat-value">—</span>
+          <span class="stat-label">Corridors</span>
+        </div>
+      </div>
+      <div class="topbar-glow"></div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+      <!-- Sidebar -->
+      <aside id="sidebar" class="sidebar">
+        <div class="sidebar-content" id="sidebar-content">
+          <!-- Content injected by JS based on mode -->
+        </div>
+      </aside>
+
+      <!-- Map Container -->
+      <div id="map-container">
+        <div id="map"></div>
+        <!-- Map Legend -->
+        <div id="map-legend" class="map-overlay map-legend">
+          <h4>Incident Types</h4>
+          <div class="legend-items" id="legend-items"></div>
+        </div>
+        <!-- Map Stats -->
+        <div id="map-stats" class="map-overlay map-stats">
+          <span id="visible-count">0 visible</span>
+        </div>
+      </div>
+
+      <!-- Right Panel -->
+      <aside id="right-panel" class="right-panel">
+        <div class="panel-content" id="panel-content">
+          <!-- Charts and analysis panels injected by JS -->
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <!-- Loading Overlay -->
+  <div id="loading-overlay" class="loading-overlay">
+    <div class="loader">
+      <img src="/logo.png" alt="Loading..." />
+      <p>Loading incident data...</p>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
