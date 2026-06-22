@@ -14,6 +14,7 @@ import { predictImpact } from './engine/forecast.js';
 import { recommendResources, setModelData } from './engine/resource.js';
 import { analyzeEvent, getPastEvents } from './engine/learning.js';
 import { loadDecisionTree, decide } from './engine/decision.js';
+import * as Simulator from './engine/simulator.js';
 import { CAUSE_COLORS, CAUSE_LABELS, BENGALURU_CENTER } from './config.js';
 import { formatTime, formatDuration, hourLabel } from './utils/time.js';
 
@@ -85,10 +86,33 @@ function updateLocationMarker() {
   }).addTo(map);
 }
 
+// Global incident markers for simulator
+let simulatorMarkers = [];
+
 function renderIncidents() {
-  const incidents = getAllIncidents();
+  const incidents = currentMode === 'simulator' ? Simulator.getCurrentIncidents() : getAllIncidents();
 
   // Heatmap layer
+  if (heatLayer) map.removeLayer(heatLayer);
+  if (markerCluster) map.removeLayer(markerCluster);
+  simulatorMarkers.forEach(m => map.removeLayer(m));
+  simulatorMarkers = [];
+
+  if (currentMode === 'simulator') {
+    // Render individual glowing markers for the simulator sequence
+    for (const inc of incidents) {
+      const color = CAUSE_COLORS[inc.cause] || '#64748b';
+      const m = L.circleMarker([inc.lat, inc.lng], {
+        radius: 6, fillColor: color, fillOpacity: 0.9, color: 'white', weight: 1,
+      }).addTo(map);
+      m.bindPopup(buildPopup(inc));
+      simulatorMarkers.push(m);
+    }
+    document.getElementById('visible-count').textContent = `Simulator: ${incidents.length} incidents`;
+    return; // Skip standard heatmaps in simulator
+  }
+
+  // Standard rendering
   const heatPoints = incidents.map(i => [i.lat, i.lng, 0.5]);
   heatLayer = L.heatLayer(heatPoints, {
     radius: 18, blur: 25, maxZoom: 15,
@@ -161,7 +185,17 @@ function setupModeSwitch() {
     btn.classList.add('active');
     currentMode = btn.dataset.mode;
     renderSidebar();
-    renderRightPanel();
+    
+    if (currentMode === 'simulator') {
+      Simulator.setFrame(0);
+      document.getElementById('panel-content').innerHTML = `
+        <div style="padding: 20px; text-align: center; color: var(--text-muted);">
+          Drag the slider on the left to start the Gridlock Simulation.
+        </div>`;
+    } else {
+      renderRightPanel();
+    }
+    renderIncidents();
   });
 }
 
@@ -170,8 +204,49 @@ function renderSidebar() {
   const el = document.getElementById('sidebar-content');
   if (currentMode === 'forecast') el.innerHTML = forecastSidebar();
   else if (currentMode === 'explore') el.innerHTML = exploreSidebar();
+  else if (currentMode === 'simulator') el.innerHTML = simulatorSidebar();
   else el.innerHTML = learningSidebar();
   attachSidebarListeners();
+}
+
+function simulatorSidebar() {
+  const data = Simulator.getSimulationData();
+  if (!data) return `<div class="card"><div class="card-body">Simulator data not loaded.</div></div>`;
+  
+  return `
+    <div class="card">
+      <div class="card-header">
+        <h3>Time-Machine Simulator</h3>
+        <span class="badge badge-planned">${data.date}</span>
+      </div>
+      <div class="card-body">
+        <p style="font-size:0.75rem;color:var(--text-secondary);margin-bottom:12px;">
+          Scrub through the most chaotic day in the dataset. Watch the AI engine react to cascading failures in real-time.
+        </p>
+        
+        <div class="metric-row" style="margin-bottom: 16px;">
+          <div class="metric-card">
+            <div class="metric-value" style="color:var(--accent-red)" id="sim-active-count">0</div>
+            <div class="metric-label">Active Incidents</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value" style="color:var(--accent-cyan)" id="sim-time">--:--</div>
+            <div class="metric-label">Time (IST)</div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" style="display:flex; justify-content:space-between;">
+            <span>Timeline</span>
+            <span id="sim-progress" style="color:var(--accent-blue)">0 / ${data.totalIncidents}</span>
+          </label>
+          <input type="range" class="form-input" id="sim-slider" min="0" max="${data.totalIncidents}" value="0" style="padding:0; cursor:pointer;" />
+        </div>
+        
+        <button class="btn btn-primary btn-block" id="btn-sim-play" style="margin-top: 10px;">Play Sequence</button>
+      </div>
+    </div>
+    <div id="sim-result"></div>`;
 }
 
 function forecastSidebar() {
@@ -303,6 +378,71 @@ function attachSidebarListeners() {
       const idx = parseInt(item.dataset.eventIdx);
       const events = getPastEvents().slice(0, 20);
       if (events[idx]) runLearningAnalysis(events[idx]);
+    });
+  }
+
+  // Simulator mode
+  const simSlider = document.getElementById('sim-slider');
+  if (simSlider) {
+    simSlider.addEventListener('input', (e) => {
+      const frame = parseInt(e.target.value);
+      Simulator.setFrame(frame);
+      document.getElementById('sim-progress').textContent = `${frame} / ${simSlider.max}`;
+      renderIncidents(); // this will redraw the glowing dots up to currentFrame
+      
+      const res = Simulator.runSimulationFrame();
+      if (res) {
+        // center map on incident
+        map.setView([res.incident.lat, res.incident.lng], 14);
+        
+        // update sidebar metric
+        document.getElementById('sim-time').textContent = formatTime(res.incident.start);
+        document.getElementById('sim-active-count').textContent = frame;
+
+        // Render decision
+        const el = document.getElementById('sim-result');
+        if (el) {
+          el.innerHTML = '';
+          const tempDiv = document.createElement('div');
+          // Temporarily override the main element to reuse renderForecastResult HTML
+          tempDiv.id = 'forecast-result';
+          el.appendChild(tempDiv);
+          // Redefine getElementById temporarily? No, renderForecastResult uses document.getElementById('forecast-result')
+          // Let's just create the DOM node with that ID inside sim-result
+          renderForecastResult(res.prediction, res.resources, res.decision);
+          renderImpactZones(res.prediction);
+          renderBarricadeMarkers(res.resources.barricadePoints);
+          renderRightPanel(res.prediction, res.resources, res.decision);
+        }
+      } else {
+        document.getElementById('sim-result').innerHTML = '';
+        clearImpactLayers();
+      }
+    });
+  }
+
+  const simPlayBtn = document.getElementById('btn-sim-play');
+  if (simPlayBtn && simSlider) {
+    let playInterval = null;
+    simPlayBtn.addEventListener('click', () => {
+      if (playInterval) {
+        clearInterval(playInterval);
+        playInterval = null;
+        simPlayBtn.textContent = 'Play Sequence';
+      } else {
+        simPlayBtn.textContent = 'Pause Sequence';
+        playInterval = setInterval(() => {
+          let val = parseInt(simSlider.value);
+          if (val >= parseInt(simSlider.max)) {
+            clearInterval(playInterval);
+            playInterval = null;
+            simPlayBtn.textContent = 'Play Sequence';
+            return;
+          }
+          simSlider.value = val + 1;
+          simSlider.dispatchEvent(new Event('input'));
+        }, 1000); // 1 frame per second
+      }
     });
   }
 }

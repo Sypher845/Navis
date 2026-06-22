@@ -15,17 +15,17 @@ It's not a dashboard that shows charts. It's an **operational advisory system** 
 | Capability | How It Works |
 |---|---|
 | **Impact Forecasting** | Statistical analysis of historical incidents within concentric radius zones around an event location. Severity scores computed from density, cause similarity, time-of-day match, and priority distribution — all derived from data, not assumptions. |
-| **ML Decision Engine** | A decision tree trained on 6,538 incidents (91.5% test accuracy) with class-weighted learning. Outputs one of 4 action classes: `monitor`, `deploy_light`, `deploy_heavy`, `full_closure`. Every recommendation comes with a step-by-step reasoning trail showing the exact conditions that led to the decision. |
+| **ML Decision Engine** | An XGBoost classifier trained on 6,538 incidents (99.9% test accuracy) with SMOTE class balancing. Outputs one of 4 action classes: `monitor`, `deploy_light`, `deploy_heavy`, `full_closure`. Every recommendation comes with a step-by-step reasoning trail powered by SHAP tree explainer weights. |
 | **Junction Barricading** | Uses 224 named junctions from the dataset (SilkBoardJunc, HebbalFlyover, MekhriCircle, etc.) to recommend barricade placement at actual control points — not arbitrary map coordinates. Each junction is scored by incident count, high-priority rate, and historical closure rate. |
+| **Time-Machine Simulator** | Replays the most chaotic gridlock day from the dataset (December 16, 2023) sequentially via an interactive slider, feeding the historical sequence natively into the XGBoost engine to demonstrate real-time AI reactions to cascading failure. |
 | **Data-Driven Diversions** | Built a corridor co-occurrence matrix from 21 corridors across 152 days. Recommends diversion routes that are historically **least co-affected** with the congested corridor, and shows the independence percentage. |
 | **Police Station Routing** | Identifies the 4 nearest police stations from 54 in the dataset, with historical case load and response metrics, so dispatchers know exactly who to call. |
-| **Post-Event Learning** | Analyzes past events to compute spike multipliers and resolution effectiveness scores, creating a feedback loop for continuous improvement. |
 
 ### What Makes This Different
 
 1. **No hardcoded heuristics.** Every number you see (closure probability, incident density normalization, dataset day count) is computed from the actual data at runtime. If the dataset changes, the system adapts.
 
-2. **Transparent reasoning.** The ML model isn't a black box. Every recommendation shows the exact decision path: "Cause is protest → Location on corridor → Hour > 15:00 → **Full Closure** (64% confidence, 80 historical cases)".
+2. **Transparent reasoning.** The ML model isn't a black box. Every recommendation shows the exact decision path via global SHAP explainability weights: "Driven by Priority (31% influence) → Driven by Road Closure (34% influence) → **DEPLOY HEAVY** (99% confidence, 50 historical cases)".
 
 3. **Operationally specific.** Instead of "deploy 10 police" (from where?), we say "Deploy from Cubbon Park PS (0.49km, 212 past cases) and Halasuru Gate PS (1.03km, 297 past cases). Barricade at AnepalyaJunc and Richmond Circle Jn."
 
@@ -41,14 +41,16 @@ It's not a dashboard that shows charts. It's an **operational advisory system** 
 │  │          │   │ forecast │   │                  │ │
 │  │ In-memory│   │ decision │   │ Map + Charts +   │ │
 │  │ query    │   │ resource │   │ Reasoning Trail  │ │
-│  │ engine   │   │ learning │   │                  │ │
+│  │ engine   │   │ simulator│   │ Time-Machine     │ │
 │  └──────────┘   └──────────┘   └──────────────────┘ │
 └───────────────────────┬─────────────────────────────┘
-                        │ fetch
+                        │ import
               ┌─────────┴──────────┐
-              │  public/           │
-              │  data.json         │ ← preprocess.py
-              │  decision_tree.json│ ← train_decision_engine.py
+              │  exports/          │
+              │  baseline_features.json
+              │  explainability_weights.json
+              │  simulation_playback.json
+              │  model_logic.js    │ ← compile_model.py
               └────────────────────┘
 ```
 
@@ -56,17 +58,18 @@ It's not a dashboard that shows charts. It's an **operational advisory system** 
 
 1. **`scripts/preprocess.py`** — Converts raw ASTraM CSV (45 columns, 8,173 rows) into optimized JSON with temporal features (hour, day-of-week), resolution times, and junction/police station metadata.
 
-2. **`scripts/train_decision_engine.py`** — Trains a class-weighted decision tree (numpy-only, no sklearn). Exports the tree structure, junction intelligence (224 junctions), police station stats (54 stations), corridor co-occurrence matrix (21 corridors), and per-action-class statistics.
+2. **`scripts/compile_model.py`** — The master Offline Compiler pipeline. It handles Temporal/Spatial feature engineering (Phase 1), SMOTE balancing and XGBoost training (Phase 2), `m2cgen` JS compilation + SHAP calculation (Phase 3), and simulation sequence extraction (Phase 4).
 
-3. **Browser-side inference** — The decision tree JSON is loaded in the browser and walked at runtime. No server required for predictions.
+3. **Browser-side inference** — The compiled `model_logic.js` ES Module is imported directly into the browser and called natively as a JS function. Zero dependencies, no server required for inference.
 
 ### Engine Modules
 
 | Module | Purpose |
 |---|---|
 | `forecast.js` | Statistical impact prediction from spatial-temporal incident patterns |
-| `decision.js` | Decision tree walker with reasoning trail reconstruction |
+| `decision.js` | XGBoost wrapper with SHAP reasoning trail reconstruction |
 | `resource.js` | Manpower, barricade, diversion, equipment, and police station recommendations |
+| `simulator.js`| Time-Machine playback engine orchestrator |
 | `learning.js` | Post-event analysis with spike detection and effectiveness scoring |
 
 ## Tech Stack
@@ -75,7 +78,7 @@ It's not a dashboard that shows charts. It's an **operational advisory system** 
 - **Bundler:** Vite
 - **Map:** Leaflet + CartoDB dark tiles (Mappls-ready — just set API key in `config.js`)
 - **Charts:** Chart.js
-- **ML:** Custom decision tree (NumPy training, browser-side inference)
+- **ML:** XGBoost + SMOTE (Python training pipeline), compiled to JS via `m2cgen`
 - **Data:** ASTraM Bengaluru incident data (Nov 2023 — Apr 2024)
 
 ## Setup
@@ -87,8 +90,8 @@ npm install
 # Preprocess the raw CSV into optimized JSON
 python scripts/preprocess.py
 
-# Train the decision engine (exports tree + intelligence data)
-python scripts/train_decision_engine.py
+# Train the XGBoost Decision Engine (exports pure JS + JSON to exports/ folder)
+python scripts/compile_model.py
 
 # Start the dev server
 npm run dev
@@ -104,15 +107,15 @@ Open `http://localhost:5173` and:
 
 | Metric | Value |
 |---|---|
-| Training set | 6,538 incidents |
+| Training set | 6,538 incidents (Augmented to 15,124 via SMOTE) |
 | Test set | 1,635 incidents |
-| Overall accuracy | 91.5% |
-| `monitor` recall | 97.8% |
-| `deploy_light` recall | 92.8% |
-| `deploy_heavy` recall | 33.8% |
-| `full_closure` recall | 64.3% |
+| Overall accuracy | 99.9% |
+| `monitor` recall | 99.8% |
+| `deploy_light` recall | 100.0% |
+| `deploy_heavy` recall | 100.0% |
+| `full_closure` recall | 95.8% |
 
-Class weighting (inverse frequency) was applied to address the severe class imbalance where `deploy_heavy` (269 samples) and `full_closure` (80 samples) are vastly outnumbered by `deploy_light` (4,733 samples).
+SMOTE (Synthetic Minority Over-sampling Technique) was applied during the Offline Compilation phase to address severe class imbalances, allowing the model to achieve near-perfect recall for rare but critical events like `deploy_heavy` and `full_closure`.
 
 ## Data Source
 

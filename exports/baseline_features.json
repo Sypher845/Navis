@@ -1,0 +1,6150 @@
+{
+  "junctionBaselines": {
+    "17th Mn 1st Crs Aishwarya Stores Jn": {
+      "freq": 1,
+      "avg_res": 55.783,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.925,
+      "lng": 77.634
+    },
+    "27th Cross Jayanagar(Ganapathi Temple)": {
+      "freq": 1,
+      "avg_res": 119.25,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.932,
+      "lng": 77.58
+    },
+    "28thMainJayanagarJunc": {
+      "freq": 6,
+      "avg_res": 0.0,
+      "hp_rate": 0.167,
+      "closure_rate": 0.0,
+      "lat": 12.917,
+      "lng": 77.595
+    },
+    "29thMainRdBTM LayoutJunc": {
+      "freq": 5,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.916,
+      "lng": 77.616
+    },
+    "5thMainHSR": {
+      "freq": 3,
+      "avg_res": 1.067,
+      "hp_rate": 1.0,
+      "closure_rate": 0.333,
+      "lat": 12.916,
+      "lng": 77.631
+    },
+    "5thMainRPC Layout-Vijayanagar": {
+      "freq": 3,
+      "avg_res": 30.15,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.966,
+      "lng": 77.535
+    },
+    "A S CharStreet-MysoreRdJunc": {
+      "freq": 5,
+      "avg_res": 17.633,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.965,
+      "lng": 77.574
+    },
+    "ASC Junction": {
+      "freq": 3,
+      "avg_res": 78.133,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.967,
+      "lng": 77.621
+    },
+    "AdugodiJunc": {
+      "freq": 2,
+      "avg_res": 16.717,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.943,
+      "lng": 77.608
+    },
+    "AgaraJunction": {
+      "freq": 6,
+      "avg_res": 315.358,
+      "hp_rate": 0.833,
+      "closure_rate": 0.333,
+      "lat": 12.924,
+      "lng": 77.65
+    },
+    "AnandRaoJunction": {
+      "freq": 7,
+      "avg_res": 44.15,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.981,
+      "lng": 77.574
+    },
+    "AnepalyaJunc": {
+      "freq": 6,
+      "avg_res": 493.267,
+      "hp_rate": 1.0,
+      "closure_rate": 0.5,
+      "lat": 12.952,
+      "lng": 77.605
+    },
+    "AnilKumbleCircle": {
+      "freq": 8,
+      "avg_res": 51.994,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.976,
+      "lng": 77.602
+    },
+    "AnjaneyaTempleJunc": {
+      "freq": 3,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.981,
+      "lng": 77.631
+    },
+    "ArakereGateJunc": {
+      "freq": 15,
+      "avg_res": 95.383,
+      "hp_rate": 0.933,
+      "closure_rate": 0.0,
+      "lat": 12.891,
+      "lng": 77.598
+    },
+    "Arbindo Circle": {
+      "freq": 10,
+      "avg_res": 277.57,
+      "hp_rate": 0.0,
+      "closure_rate": 0.3,
+      "lat": 12.917,
+      "lng": 77.586
+    },
+    "Arts&CraftsCircle": {
+      "freq": 2,
+      "avg_res": 9.2,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.975,
+      "lng": 77.607
+    },
+    "AshirwadamCircle": {
+      "freq": 5,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.971,
+      "lng": 77.604
+    },
+    "Ashoknagar Junction(ShoolayCircle)": {
+      "freq": 6,
+      "avg_res": 71.067,
+      "hp_rate": 1.0,
+      "closure_rate": 0.333,
+      "lat": 12.966,
+      "lng": 77.606
+    },
+    "AttiguppeCircleJunction": {
+      "freq": 1,
+      "avg_res": 13.033,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.962,
+      "lng": 77.534
+    },
+    "AyyappaTempleJunc": {
+      "freq": 49,
+      "avg_res": 55.879,
+      "hp_rate": 0.98,
+      "closure_rate": 0.02,
+      "lat": 12.924,
+      "lng": 77.619
+    },
+    "BDA Junctio-Koramangala": {
+      "freq": 6,
+      "avg_res": 64.2,
+      "hp_rate": 1.0,
+      "closure_rate": 0.333,
+      "lat": 12.932,
+      "lng": 77.623
+    },
+    "BEL Circle": {
+      "freq": 25,
+      "avg_res": 75.224,
+      "hp_rate": 1.0,
+      "closure_rate": 0.08,
+      "lat": 13.044,
+      "lng": 77.556
+    },
+    "BEML GateJunc(SuranjandasRd)": {
+      "freq": 2,
+      "avg_res": 2.65,
+      "hp_rate": 0.0,
+      "closure_rate": 0.5,
+      "lat": 12.969,
+      "lng": 77.659
+    },
+    "BHEL Gate": {
+      "freq": 1,
+      "avg_res": 31.15,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.846,
+      "lng": 77.659
+    },
+    "BM ShriJunc(CMH-100FtRd)Junc": {
+      "freq": 3,
+      "avg_res": 51.233,
+      "hp_rate": 1.0,
+      "closure_rate": 0.667,
+      "lat": 12.979,
+      "lng": 77.641
+    },
+    "BMTCJunction-K H Road": {
+      "freq": 10,
+      "avg_res": 59.492,
+      "hp_rate": 0.0,
+      "closure_rate": 0.2,
+      "lat": 12.957,
+      "lng": 77.593
+    },
+    "BTM16thMain-ORR Junc": {
+      "freq": 6,
+      "avg_res": 39.228,
+      "hp_rate": 0.0,
+      "closure_rate": 0.167,
+      "lat": 12.916,
+      "lng": 77.61
+    },
+    "BagalakunteCrossJunction": {
+      "freq": 2,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 13.06,
+      "lng": 77.507
+    },
+    "BagalurCrossJunc": {
+      "freq": 27,
+      "avg_res": 283.651,
+      "hp_rate": 1.0,
+      "closure_rate": 0.037,
+      "lat": 13.122,
+      "lng": 77.611
+    },
+    "Bamboobazar(Shivajinagar)": {
+      "freq": 2,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.993,
+      "lng": 77.605
+    },
+    "BanashankariBusStandJunc": {
+      "freq": 13,
+      "avg_res": 420.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.154,
+      "lat": 12.917,
+      "lng": 77.573
+    },
+    "BangaloreBodyBuildersJunc": {
+      "freq": 19,
+      "avg_res": 29.23,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.959,
+      "lng": 77.555
+    },
+    "Basappa Circle Junction": {
+      "freq": 3,
+      "avg_res": 60.7,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.957,
+      "lng": 77.577
+    },
+    "BasavamantapaJunc-Dr RajkumarRd": {
+      "freq": 2,
+      "avg_res": 16.817,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.98,
+      "lng": 77.556
+    },
+    "BasaweshwaraCircle": {
+      "freq": 5,
+      "avg_res": 69.367,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.984,
+      "lng": 77.589
+    },
+    "Basveshwarnagar 8th main Junction": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.993,
+      "lng": 77.534
+    },
+    "Batrayanapura(Amrutahalli)Junction": {
+      "freq": 14,
+      "avg_res": 99.6,
+      "hp_rate": 1.0,
+      "closure_rate": 0.071,
+      "lat": 13.067,
+      "lng": 77.593
+    },
+    "BegumMahalJunc": {
+      "freq": 4,
+      "avg_res": 84.417,
+      "hp_rate": 0.5,
+      "closure_rate": 0.0,
+      "lat": 12.976,
+      "lng": 77.62
+    },
+    "Bellandur Junction, Outer ring road": {
+      "freq": 3,
+      "avg_res": 11.775,
+      "hp_rate": 1.0,
+      "closure_rate": 0.333,
+      "lat": 12.927,
+      "lng": 77.678
+    },
+    "BhadrappaLayout": {
+      "freq": 2,
+      "avg_res": 52.35,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 13.047,
+      "lng": 77.577
+    },
+    "BhashyamCircle": {
+      "freq": 3,
+      "avg_res": 45.583,
+      "hp_rate": 0.333,
+      "closure_rate": 0.0,
+      "lat": 12.985,
+      "lng": 77.554
+    },
+    "BhashyamCircle-SadashivNagar": {
+      "freq": 4,
+      "avg_res": 26.475,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 13.007,
+      "lng": 77.579
+    },
+    "BigBazaar(Whitefield)Junc": {
+      "freq": 8,
+      "avg_res": 26.367,
+      "hp_rate": 0.0,
+      "closure_rate": 0.125,
+      "lat": 12.988,
+      "lng": 77.733
+    },
+    "BigBazaarJunction(OldMadrasRd)": {
+      "freq": 26,
+      "avg_res": 0.0,
+      "hp_rate": 0.923,
+      "closure_rate": 0.038,
+      "lat": 12.991,
+      "lng": 77.657
+    },
+    "BilekahalliJunc": {
+      "freq": 14,
+      "avg_res": 158.122,
+      "hp_rate": 1.0,
+      "closure_rate": 0.071,
+      "lat": 12.901,
+      "lng": 77.601
+    },
+    "BinnyMillJunction": {
+      "freq": 7,
+      "avg_res": 71.822,
+      "hp_rate": 0.0,
+      "closure_rate": 0.286,
+      "lat": 12.97,
+      "lng": 77.568
+    },
+    "BiryandCircle": {
+      "freq": 5,
+      "avg_res": 22.283,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.964,
+      "lng": 77.57
+    },
+    "BloodBankCircle": {
+      "freq": 15,
+      "avg_res": 28.122,
+      "hp_rate": 0.267,
+      "closure_rate": 0.133,
+      "lat": 12.962,
+      "lng": 77.594
+    },
+    "Bommanahalli": {
+      "freq": 26,
+      "avg_res": 19.842,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.907,
+      "lng": 77.628
+    },
+    "BrigadeMillenium": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 1.0,
+      "lat": 12.893,
+      "lng": 77.585
+    },
+    "BucheryJunction": {
+      "freq": 11,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.091,
+      "lat": 12.952,
+      "lng": 77.621
+    },
+    "CID-CarltonHouseJunc": {
+      "freq": 9,
+      "avg_res": 76.483,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.98,
+      "lng": 77.586
+    },
+    "CIL CrossJunction-JayamahalRd": {
+      "freq": 4,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 13.009,
+      "lng": 77.592
+    },
+    "CMH Rd-AdarshTheaterJunc": {
+      "freq": 5,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.978,
+      "lng": 77.629
+    },
+    "CMP GateJunc": {
+      "freq": 20,
+      "avg_res": 165.15,
+      "hp_rate": 1.0,
+      "closure_rate": 0.15,
+      "lat": 12.958,
+      "lng": 77.606
+    },
+    "CashPharmacyJunction": {
+      "freq": 3,
+      "avg_res": 50.367,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.966,
+      "lng": 77.6
+    },
+    "ChandraLayoutJunc-nearWaterTank": {
+      "freq": 2,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.96,
+      "lng": 77.527
+    },
+    "ChandrikaJunction": {
+      "freq": 2,
+      "avg_res": 44.992,
+      "hp_rate": 0.0,
+      "closure_rate": 0.5,
+      "lat": 12.991,
+      "lng": 77.592
+    },
+    "ChaudrayaCircle/UdayaTVCircle(CantonmentJunc)": {
+      "freq": 7,
+      "avg_res": 75.661,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.994,
+      "lng": 77.596
+    },
+    "Chokasandra (Tumkur road)": {
+      "freq": 14,
+      "avg_res": 48.733,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 13.042,
+      "lng": 77.515
+    },
+    "CholurpalyaJunction(MagadiRd)": {
+      "freq": 2,
+      "avg_res": 37.65,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.974,
+      "lng": 77.55
+    },
+    "CoffeeBoardJunc": {
+      "freq": 8,
+      "avg_res": 110.517,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.983,
+      "lng": 77.596
+    },
+    "ColesParkJunc": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 1.0,
+      "lat": 12.993,
+      "lng": 77.61
+    },
+    "CommandoHospitalJunc": {
+      "freq": 6,
+      "avg_res": 33.233,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.966,
+      "lng": 77.625
+    },
+    "D'SouzaCircle": {
+      "freq": 4,
+      "avg_res": 123.828,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.967,
+      "lng": 77.611
+    },
+    "DMRoadJunc(Basavangudi)": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.944,
+      "lng": 77.572
+    },
+    "DairyCircle": {
+      "freq": 5,
+      "avg_res": 47.458,
+      "hp_rate": 0.8,
+      "closure_rate": 0.0,
+      "lat": 12.936,
+      "lng": 77.603
+    },
+    "Delmia-Jayanagar": {
+      "freq": 3,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.333,
+      "lat": 12.906,
+      "lng": 77.594
+    },
+    "Devanahalli new bus stand": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 13.248,
+      "lng": 77.716
+    },
+    "DevanahalliCrossJunc": {
+      "freq": 2,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 13.242,
+      "lng": 77.704
+    },
+    "DevangaHostelJunction": {
+      "freq": 5,
+      "avg_res": 7.458,
+      "hp_rate": 0.4,
+      "closure_rate": 0.0,
+      "lat": 12.963,
+      "lng": 77.589
+    },
+    "Devasandra(k r puram)": {
+      "freq": 30,
+      "avg_res": 58.992,
+      "hp_rate": 0.0,
+      "closure_rate": 0.133,
+      "lat": 13.009,
+      "lng": 77.696
+    },
+    "DevegowdaPetrolBunkJunc": {
+      "freq": 2,
+      "avg_res": 92.3,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.921,
+      "lng": 77.561
+    },
+    "Deverabeesanahalli-ORR Junc": {
+      "freq": 15,
+      "avg_res": 35.587,
+      "hp_rate": 1.0,
+      "closure_rate": 0.067,
+      "lat": 12.931,
+      "lng": 77.685
+    },
+    "DhobiGhatJunc": {
+      "freq": 7,
+      "avg_res": 61.667,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.987,
+      "lng": 77.551
+    },
+    "DickensonRd-AdigasJunc": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.98,
+      "lng": 77.614
+    },
+    "DoddaballapuraCrossJunc": {
+      "freq": 3,
+      "avg_res": 41.367,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 13.257,
+      "lng": 77.713
+    },
+    "DomlurWaterTank": {
+      "freq": 12,
+      "avg_res": 149.056,
+      "hp_rate": 0.667,
+      "closure_rate": 0.167,
+      "lat": 12.961,
+      "lng": 77.639
+    },
+    "Dr RajkumarRd-10thCrossRdJunc": {
+      "freq": 5,
+      "avg_res": 133.778,
+      "hp_rate": 0.4,
+      "closure_rate": 0.2,
+      "lat": 13.007,
+      "lng": 77.554
+    },
+    "Dr TCM RoyanRd near AmbedkarStatue": {
+      "freq": 12,
+      "avg_res": 483.603,
+      "hp_rate": 0.75,
+      "closure_rate": 0.0,
+      "lat": 12.965,
+      "lng": 77.568
+    },
+    "ESI(k r puram)": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.993,
+      "lng": 77.706
+    },
+    "ElectronicCityGate-2Junc": {
+      "freq": 6,
+      "avg_res": 50.446,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.855,
+      "lng": 77.665
+    },
+    "EliteJunc": {
+      "freq": 6,
+      "avg_res": 57.521,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.976,
+      "lng": 77.575
+    },
+    "FTI Junction(KanteeravaStudio)": {
+      "freq": 11,
+      "avg_res": 80.908,
+      "hp_rate": 0.0,
+      "closure_rate": 0.091,
+      "lat": 13.021,
+      "lng": 77.531
+    },
+    "Fire Force Junction": {
+      "freq": 2,
+      "avg_res": 18.633,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.981,
+      "lng": 77.55
+    },
+    "GangammagudiJunc": {
+      "freq": 6,
+      "avg_res": 35.758,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 13.057,
+      "lng": 77.547
+    },
+    "GarebhavipalyaJunc": {
+      "freq": 5,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.894,
+      "lng": 77.637
+    },
+    "Geeta Circle": {
+      "freq": 1,
+      "avg_res": 70.25,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.929,
+      "lng": 77.586
+    },
+    "Geethanjali jn": {
+      "freq": 2,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 13.003,
+      "lng": 77.571
+    },
+    "GokuldasImagesJunc": {
+      "freq": 28,
+      "avg_res": 44.497,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 13.031,
+      "lng": 77.536
+    },
+    "GopalGowdaJUnc": {
+      "freq": 3,
+      "avg_res": 64.05,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.979,
+      "lng": 77.591
+    },
+    "GorappanapalyaJunction": {
+      "freq": 1,
+      "avg_res": 11.767,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.921,
+      "lng": 77.6
+    },
+    "GoruguntepalyaJunc": {
+      "freq": 20,
+      "avg_res": 51.452,
+      "hp_rate": 1.0,
+      "closure_rate": 0.05,
+      "lat": 13.03,
+      "lng": 77.54
+    },
+    "GovindapuraCross": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 13.032,
+      "lng": 77.622
+    },
+    "GowdanapalyaJunction": {
+      "freq": 1,
+      "avg_res": 19.033,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.914,
+      "lng": 77.559
+    },
+    "HSR14thMainJunc": {
+      "freq": 3,
+      "avg_res": 60.442,
+      "hp_rate": 0.667,
+      "closure_rate": 0.0,
+      "lat": 12.918,
+      "lng": 77.639
+    },
+    "HainsJunc": {
+      "freq": 6,
+      "avg_res": 60.3,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.994,
+      "lng": 77.607
+    },
+    "HalliThindi": {
+      "freq": 3,
+      "avg_res": 98.233,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.944,
+      "lng": 77.568
+    },
+    "HebbalFlyoverJunc": {
+      "freq": 28,
+      "avg_res": 237.398,
+      "hp_rate": 1.0,
+      "closure_rate": 0.143,
+      "lat": 13.042,
+      "lng": 77.591
+    },
+    "HennurRd-DavisRdJunction": {
+      "freq": 5,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.6,
+      "lat": 13.003,
+      "lng": 77.62
+    },
+    "HennurRoad-ORR Junc": {
+      "freq": 17,
+      "avg_res": 70.894,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 13.029,
+      "lng": 77.632
+    },
+    "HesaraghattaJunction": {
+      "freq": 30,
+      "avg_res": 35.012,
+      "hp_rate": 0.933,
+      "closure_rate": 0.033,
+      "lat": 13.045,
+      "lng": 77.507
+    },
+    "HoodiJunction": {
+      "freq": 6,
+      "avg_res": 53.342,
+      "hp_rate": 0.0,
+      "closure_rate": 0.5,
+      "lat": 12.993,
+      "lng": 77.716
+    },
+    "HopefarmJunction": {
+      "freq": 10,
+      "avg_res": 907.478,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.984,
+      "lng": 77.752
+    },
+    "HoramavuJunction": {
+      "freq": 12,
+      "avg_res": 206.467,
+      "hp_rate": 1.0,
+      "closure_rate": 0.167,
+      "lat": 13.019,
+      "lng": 77.656
+    },
+    "HosmatJunction": {
+      "freq": 3,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.968,
+      "lng": 77.614
+    },
+    "HudsonCircle": {
+      "freq": 16,
+      "avg_res": 134.188,
+      "hp_rate": 1.0,
+      "closure_rate": 0.188,
+      "lat": 12.968,
+      "lng": 77.59
+    },
+    "HulimaveRd-BanneraghattaRdJunc": {
+      "freq": 9,
+      "avg_res": 50.3,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.882,
+      "lng": 77.596
+    },
+    "HunsemarammanahalliJunction": {
+      "freq": 7,
+      "avg_res": 98.633,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 13.142,
+      "lng": 77.618
+    },
+    "ISRO Junction-Airport rd": {
+      "freq": 9,
+      "avg_res": 21.833,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.959,
+      "lng": 77.655
+    },
+    "ISRO Junction-NewBEL Rd": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 13.035,
+      "lng": 77.568
+    },
+    "IbblurJunction'": {
+      "freq": 13,
+      "avg_res": 508.606,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.921,
+      "lng": 77.665
+    },
+    "IndianExpressJunction": {
+      "freq": 16,
+      "avg_res": 56.911,
+      "hp_rate": 0.875,
+      "closure_rate": 0.062,
+      "lat": 12.984,
+      "lng": 77.597
+    },
+    "Indiranasgar13thMainJunc": {
+      "freq": 2,
+      "avg_res": 74.083,
+      "hp_rate": 1.0,
+      "closure_rate": 0.5,
+      "lat": 12.967,
+      "lng": 77.642
+    },
+    "ItmaduJunction": {
+      "freq": 6,
+      "avg_res": 63.613,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.928,
+      "lng": 77.546
+    },
+    "J D MaraJunc": {
+      "freq": 3,
+      "avg_res": 20.983,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.907,
+      "lng": 77.601
+    },
+    "JP Nagar 15th cross junction": {
+      "freq": 7,
+      "avg_res": 53.292,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.906,
+      "lng": 77.586
+    },
+    "JP Nagar 9th cross-24th main jn": {
+      "freq": 5,
+      "avg_res": 114.133,
+      "hp_rate": 0.0,
+      "closure_rate": 0.2,
+      "lat": 12.912,
+      "lng": 77.586
+    },
+    "JaiMuniRaoCircle": {
+      "freq": 5,
+      "avg_res": 100.3,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.978,
+      "lng": 77.543
+    },
+    "Jaipuria-Adugodi": {
+      "freq": 4,
+      "avg_res": 21.267,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.935,
+      "lng": 77.624
+    },
+    "JakkurCrossJunction": {
+      "freq": 18,
+      "avg_res": 46.927,
+      "hp_rate": 1.0,
+      "closure_rate": 0.056,
+      "lat": 13.074,
+      "lng": 77.593
+    },
+    "JalahalliCross(SM Circle)": {
+      "freq": 32,
+      "avg_res": 37.997,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 13.04,
+      "lng": 77.518
+    },
+    "JayadevaHospitalJunc": {
+      "freq": 8,
+      "avg_res": 59.837,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.916,
+      "lng": 77.6
+    },
+    "Jayanagar 4th main,36th cross": {
+      "freq": 2,
+      "avg_res": 152.825,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.923,
+      "lng": 77.58
+    },
+    "JohnsonMarket": {
+      "freq": 3,
+      "avg_res": 70.367,
+      "hp_rate": 1.0,
+      "closure_rate": 0.333,
+      "lat": 12.963,
+      "lng": 77.607
+    },
+    "K G Junction": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.975,
+      "lng": 77.576
+    },
+    "K H Road-SiddaiahRdJunc(BMTC-BigBazaar)": {
+      "freq": 6,
+      "avg_res": 209.2,
+      "hp_rate": 0.0,
+      "closure_rate": 0.333,
+      "lat": 12.953,
+      "lng": 77.591
+    },
+    "K R Circle": {
+      "freq": 31,
+      "avg_res": 68.824,
+      "hp_rate": 0.0,
+      "closure_rate": 0.29,
+      "lat": 12.977,
+      "lng": 77.586
+    },
+    "K R MarketJunction": {
+      "freq": 7,
+      "avg_res": 111.131,
+      "hp_rate": 1.0,
+      "closure_rate": 0.429,
+      "lat": 12.964,
+      "lng": 77.578
+    },
+    "KCG HospitalJunction": {
+      "freq": 2,
+      "avg_res": 10.75,
+      "hp_rate": 0.0,
+      "closure_rate": 0.5,
+      "lat": 12.999,
+      "lng": 77.571
+    },
+    "KHB Junction": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 1.0,
+      "lat": 12.981,
+      "lng": 77.537
+    },
+    "KIMCO Junction": {
+      "freq": 31,
+      "avg_res": 69.934,
+      "hp_rate": 1.0,
+      "closure_rate": 0.065,
+      "lat": 12.951,
+      "lng": 77.538
+    },
+    "KR Road-14thCross Junc": {
+      "freq": 1,
+      "avg_res": 123.517,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.93,
+      "lng": 77.574
+    },
+    "KadirenahalliJunction": {
+      "freq": 8,
+      "avg_res": 75.217,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.916,
+      "lng": 77.565
+    },
+    "Kadubeesanahalli-ORR Junc": {
+      "freq": 12,
+      "avg_res": 58.595,
+      "hp_rate": 0.917,
+      "closure_rate": 0.0,
+      "lat": 12.939,
+      "lng": 77.696
+    },
+    "KalyanNagar-ORR Junc": {
+      "freq": 6,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.167,
+      "lat": 13.024,
+      "lng": 77.644
+    },
+    "KamakyaJunction": {
+      "freq": 1,
+      "avg_res": 44.533,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.923,
+      "lng": 77.554
+    },
+    "Kammanahalli-RingRoadJunction": {
+      "freq": 4,
+      "avg_res": 55.733,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 13.026,
+      "lng": 77.637
+    },
+    "KamrajRdJunction": {
+      "freq": 5,
+      "avg_res": 108.483,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.977,
+      "lng": 77.609
+    },
+    "KanakapuraRd-RingRdJunction": {
+      "freq": 9,
+      "avg_res": 180.0,
+      "hp_rate": 0.778,
+      "closure_rate": 0.111,
+      "lat": 12.906,
+      "lng": 77.573
+    },
+    "KarnatakaBhavanJunction": {
+      "freq": 9,
+      "avg_res": 183.917,
+      "hp_rate": 0.0,
+      "closure_rate": 0.111,
+      "lat": 12.981,
+      "lng": 77.565
+    },
+    "KatriguppeJunction": {
+      "freq": 12,
+      "avg_res": 40.946,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.925,
+      "lng": 77.55
+    },
+    "KensingtonOvalJunc": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.982,
+      "lng": 77.624
+    },
+    "KhodaysCircle(DV UrsCircle)": {
+      "freq": 23,
+      "avg_res": 55.891,
+      "hp_rate": 0.0,
+      "closure_rate": 0.043,
+      "lat": 12.98,
+      "lng": 77.572
+    },
+    "KodigehalliCross": {
+      "freq": 11,
+      "avg_res": 0.0,
+      "hp_rate": 0.909,
+      "closure_rate": 0.0,
+      "lat": 13.056,
+      "lng": 77.594
+    },
+    "KogilluCrossJunc": {
+      "freq": 15,
+      "avg_res": 82.992,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 13.105,
+      "lng": 77.601
+    },
+    "KonanakunteJunction(KanakapurarRd)": {
+      "freq": 6,
+      "avg_res": 61.622,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.89,
+      "lng": 77.564
+    },
+    "KoramangalaWaterTankJunc": {
+      "freq": 29,
+      "avg_res": 136.7,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.927,
+      "lng": 77.621
+    },
+    "KrishnaFlourMill": {
+      "freq": 19,
+      "avg_res": 29.973,
+      "hp_rate": 0.0,
+      "closure_rate": 0.316,
+      "lat": 12.985,
+      "lng": 77.573
+    },
+    "Krupanidhi College": {
+      "freq": 5,
+      "avg_res": 88.083,
+      "hp_rate": 0.0,
+      "closure_rate": 0.2,
+      "lat": 12.925,
+      "lng": 77.628
+    },
+    "Kudlu Gate Junc": {
+      "freq": 6,
+      "avg_res": 84.775,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.889,
+      "lng": 77.639
+    },
+    "KundanahalliGateJunc": {
+      "freq": 11,
+      "avg_res": 158.25,
+      "hp_rate": 1.0,
+      "closure_rate": 0.091,
+      "lat": 12.956,
+      "lng": 77.717
+    },
+    "KuvempuCircle": {
+      "freq": 3,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 13.045,
+      "lng": 77.562
+    },
+    "KuvempuCircleJunc,HAL MainGate": {
+      "freq": 1,
+      "avg_res": 5.85,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.958,
+      "lng": 77.668
+    },
+    "LRDE Junction": {
+      "freq": 9,
+      "avg_res": 63.329,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.987,
+      "lng": 77.588
+    },
+    "LalbaghMainGateJunc": {
+      "freq": 6,
+      "avg_res": 64.878,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.954,
+      "lng": 77.586
+    },
+    "LalbaghWestGate": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.948,
+      "lng": 77.58
+    },
+    "LeprosyhospitalJunc": {
+      "freq": 21,
+      "avg_res": 70.045,
+      "hp_rate": 1.0,
+      "closure_rate": 0.143,
+      "lat": 12.976,
+      "lng": 77.564
+    },
+    "LinkRoadMalleswaramJunc": {
+      "freq": 3,
+      "avg_res": 31.089,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.993,
+      "lng": 77.574
+    },
+    "LowerAgaram(IndiaGarage)Junc": {
+      "freq": 3,
+      "avg_res": 21.933,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.964,
+      "lng": 77.618
+    },
+    "MC Circle": {
+      "freq": 6,
+      "avg_res": 25.033,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.976,
+      "lng": 77.548
+    },
+    "MICO Bande": {
+      "freq": 6,
+      "avg_res": 34.411,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.946,
+      "lng": 77.603
+    },
+    "MS RamaiahJunc(TollGate)": {
+      "freq": 11,
+      "avg_res": 40.897,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 13.017,
+      "lng": 77.561
+    },
+    "MSRamaiahHospitalJunc": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 13.028,
+      "lng": 77.574
+    },
+    "MahalaxmiLayoutEntranceJunc": {
+      "freq": 5,
+      "avg_res": 0.0,
+      "hp_rate": 0.8,
+      "closure_rate": 0.0,
+      "lat": 13.01,
+      "lng": 77.549
+    },
+    "MaharajaJunction": {
+      "freq": 2,
+      "avg_res": 33.483,
+      "hp_rate": 0.0,
+      "closure_rate": 0.5,
+      "lat": 12.934,
+      "lng": 77.63
+    },
+    "Malleswaram18thCrossRd-SampigeRdJunc": {
+      "freq": 5,
+      "avg_res": 51.775,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 13.009,
+      "lng": 77.572
+    },
+    "ManipalCentreJunc": {
+      "freq": 2,
+      "avg_res": 38.217,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.976,
+      "lng": 77.613
+    },
+    "MaratahalliBridgeJunc": {
+      "freq": 16,
+      "avg_res": 269.971,
+      "hp_rate": 1.0,
+      "closure_rate": 0.125,
+      "lat": 12.956,
+      "lng": 77.701
+    },
+    "MarenahalliRd-18thMainRdJunc": {
+      "freq": 2,
+      "avg_res": 10.242,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.919,
+      "lng": 77.589
+    },
+    "MargosaRd-18thCrossJunc": {
+      "freq": 6,
+      "avg_res": 58.042,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 13.011,
+      "lng": 77.569
+    },
+    "Marigowda-TavarkereRdJunc": {
+      "freq": 13,
+      "avg_res": 99.94,
+      "hp_rate": 0.385,
+      "closure_rate": 0.0,
+      "lat": 12.936,
+      "lng": 77.608
+    },
+    "MayohallJunction": {
+      "freq": 5,
+      "avg_res": 43.625,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.973,
+      "lng": 77.611
+    },
+    "MeenakshiMallJunc": {
+      "freq": 8,
+      "avg_res": 70.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.876,
+      "lng": 77.595
+    },
+    "MekhriCircle": {
+      "freq": 64,
+      "avg_res": 78.245,
+      "hp_rate": 0.984,
+      "closure_rate": 0.016,
+      "lat": 13.015,
+      "lng": 77.584
+    },
+    "MillCornerRd-SampigeRdJunc": {
+      "freq": 9,
+      "avg_res": 99.008,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.992,
+      "lng": 77.571
+    },
+    "Minerva Circle": {
+      "freq": 2,
+      "avg_res": 9.05,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.955,
+      "lng": 77.58
+    },
+    "MinskSquare(CTO Junction)": {
+      "freq": 8,
+      "avg_res": 245.917,
+      "hp_rate": 1.0,
+      "closure_rate": 0.125,
+      "lat": 12.982,
+      "lng": 77.597
+    },
+    "MintoJunction": {
+      "freq": 5,
+      "avg_res": 53.283,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.96,
+      "lng": 77.572
+    },
+    "ModiBridgeJunction": {
+      "freq": 3,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.333,
+      "lat": 12.999,
+      "lng": 77.55
+    },
+    "ModiHospital": {
+      "freq": 1,
+      "avg_res": 81.233,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.998,
+      "lng": 77.547
+    },
+    "MotherTeressaCircle": {
+      "freq": 11,
+      "avg_res": 39.267,
+      "hp_rate": 0.909,
+      "closure_rate": 0.0,
+      "lat": 12.967,
+      "lng": 77.609
+    },
+    "MysoreRd--MadhuPetrolBunkJunction": {
+      "freq": 4,
+      "avg_res": 28.528,
+      "hp_rate": 1.0,
+      "closure_rate": 0.75,
+      "lat": 12.912,
+      "lng": 77.485
+    },
+    "MysoreRd-RingRdJunc(Nayandanahallii)": {
+      "freq": 19,
+      "avg_res": 67.274,
+      "hp_rate": 0.947,
+      "closure_rate": 0.0,
+      "lat": 12.945,
+      "lng": 77.527
+    },
+    "N R SquareJunc": {
+      "freq": 10,
+      "avg_res": 50.158,
+      "hp_rate": 1.0,
+      "closure_rate": 0.1,
+      "lat": 12.965,
+      "lng": 77.587
+    },
+    "NCERT Junction": {
+      "freq": 1,
+      "avg_res": 146.167,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.932,
+      "lng": 77.545
+    },
+    "NGV RearGateJunc": {
+      "freq": 2,
+      "avg_res": 81.017,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.942,
+      "lng": 77.623
+    },
+    "NIMHANS Junction": {
+      "freq": 6,
+      "avg_res": 74.3,
+      "hp_rate": 0.0,
+      "closure_rate": 0.167,
+      "lat": 12.94,
+      "lng": 77.598
+    },
+    "NTTF JunctionPeenya": {
+      "freq": 2,
+      "avg_res": 81.317,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 13.025,
+      "lng": 77.511
+    },
+    "NagaTheaterJunc-Ulsoor": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 1.0,
+      "lat": 12.99,
+      "lng": 77.618
+    },
+    "NaganathapuraJunction": {
+      "freq": 12,
+      "avg_res": 149.357,
+      "hp_rate": 1.0,
+      "closure_rate": 0.083,
+      "lat": 12.87,
+      "lng": 77.653
+    },
+    "Nagarbhavi": {
+      "freq": 9,
+      "avg_res": 256.65,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.959,
+      "lng": 77.518
+    },
+    "Nagavara-ORR Junction": {
+      "freq": 32,
+      "avg_res": 205.417,
+      "hp_rate": 1.0,
+      "closure_rate": 0.062,
+      "lat": 13.04,
+      "lng": 77.624
+    },
+    "NandiCross(RaniCross)": {
+      "freq": 3,
+      "avg_res": 80.817,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 13.265,
+      "lng": 77.719
+    },
+    "Narayanapura cross, Hegde nagar": {
+      "freq": 3,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 13.071,
+      "lng": 77.635
+    },
+    "NationalCollege": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.952,
+      "lng": 77.574
+    },
+    "NavarangBarJunc-Dr RajkumarRd": {
+      "freq": 2,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.5,
+      "lat": 12.988,
+      "lng": 77.56
+    },
+    "NavarangTheatreJunction": {
+      "freq": 4,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.25,
+      "lat": 12.998,
+      "lng": 77.553
+    },
+    "OldMadrasRd-80FeetRdJunc": {
+      "freq": 8,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.125,
+      "lat": 12.986,
+      "lng": 77.645
+    },
+    "OldMadrasRd-BMTC DepotJunc": {
+      "freq": 1,
+      "avg_res": 19.6,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.983,
+      "lng": 77.635
+    },
+    "OldMadrasRd-DoubleRdJunc": {
+      "freq": 3,
+      "avg_res": 11.372,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.983,
+      "lng": 77.638
+    },
+    "OldMadrasRd-Indranagar100ftRdJunc": {
+      "freq": 12,
+      "avg_res": 29.038,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.984,
+      "lng": 77.641
+    },
+    "OldMadrasRd-NGEF Junc": {
+      "freq": 8,
+      "avg_res": 37.85,
+      "hp_rate": 1.0,
+      "closure_rate": 0.125,
+      "lat": 12.987,
+      "lng": 77.648
+    },
+    "OldMadrasRd-SuddaguntepalyaRdJunc": {
+      "freq": 3,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.99,
+      "lng": 77.654
+    },
+    "OldPoliceStation-Ashoknagar": {
+      "freq": 5,
+      "avg_res": 55.963,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.968,
+      "lng": 77.606
+    },
+    "OperaHouseJunc": {
+      "freq": 6,
+      "avg_res": 315.772,
+      "hp_rate": 1.0,
+      "closure_rate": 0.167,
+      "lat": 12.972,
+      "lng": 77.607
+    },
+    "PES-DevegowdaCircle": {
+      "freq": 4,
+      "avg_res": 51.133,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.938,
+      "lng": 77.533
+    },
+    "Peenya14thCrossJunc": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 13.017,
+      "lng": 77.505
+    },
+    "Peenya2ndStageBusStand": {
+      "freq": 2,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.5,
+      "lat": 13.01,
+      "lng": 77.506
+    },
+    "PeenyaPoliceStation": {
+      "freq": 12,
+      "avg_res": 25.337,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 13.037,
+      "lng": 77.522
+    },
+    "PlatformRdJunction": {
+      "freq": 6,
+      "avg_res": 469.375,
+      "hp_rate": 0.0,
+      "closure_rate": 0.333,
+      "lat": 12.982,
+      "lng": 77.57
+    },
+    "PoliceCornerJunc": {
+      "freq": 26,
+      "avg_res": 28.004,
+      "hp_rate": 0.885,
+      "closure_rate": 0.154,
+      "lat": 12.969,
+      "lng": 77.587
+    },
+    "PoliceTimmaiahCircle(GPO)": {
+      "freq": 14,
+      "avg_res": 70.13,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.982,
+      "lng": 77.594
+    },
+    "PotteryCircle": {
+      "freq": 5,
+      "avg_res": 59.483,
+      "hp_rate": 0.0,
+      "closure_rate": 0.2,
+      "lat": 13.002,
+      "lng": 77.612
+    },
+    "PrasannaJunction": {
+      "freq": 6,
+      "avg_res": 48.13,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.976,
+      "lng": 77.553
+    },
+    "PriyadarshiniHotel,Jayamahal,RT Nagar": {
+      "freq": 6,
+      "avg_res": 240.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.167,
+      "lat": 13.002,
+      "lng": 77.595
+    },
+    "PurnimaTheaterJunc": {
+      "freq": 8,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.96,
+      "lng": 77.588
+    },
+    "PuttammaChoultryNagarbhavi": {
+      "freq": 2,
+      "avg_res": 0.0,
+      "hp_rate": 0.5,
+      "closure_rate": 0.0,
+      "lat": 12.976,
+      "lng": 77.538
+    },
+    "QueensStatueCircle": {
+      "freq": 9,
+      "avg_res": 397.975,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.977,
+      "lng": 77.599
+    },
+    "RRR(Okalipuram)Junction": {
+      "freq": 6,
+      "avg_res": 44.383,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.982,
+      "lng": 77.568
+    },
+    "Rajajinagagr1stBlockJunction": {
+      "freq": 2,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 13.004,
+      "lng": 77.549
+    },
+    "Rajajinagar19thMainJunc": {
+      "freq": 6,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.998,
+      "lng": 77.551
+    },
+    "RajajinagarEntranceJunction": {
+      "freq": 5,
+      "avg_res": 0.617,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.982,
+      "lng": 77.56
+    },
+    "RajarajeshwariKalyanaMantapaJunc": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.994,
+      "lng": 77.554
+    },
+    "RajeshwariJunc": {
+      "freq": 22,
+      "avg_res": 75.65,
+      "hp_rate": 0.909,
+      "closure_rate": 0.182,
+      "lat": 12.937,
+      "lng": 77.519
+    },
+    "RamaiahCircle-UlsoorPoliceStation": {
+      "freq": 9,
+      "avg_res": 49.775,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.976,
+      "lng": 77.626
+    },
+    "RamamurthyNagarJunction": {
+      "freq": 9,
+      "avg_res": 108.219,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 13.015,
+      "lng": 77.661
+    },
+    "Richmond circle jn": {
+      "freq": 11,
+      "avg_res": 36.014,
+      "hp_rate": 1.0,
+      "closure_rate": 0.364,
+      "lat": 12.965,
+      "lng": 77.596
+    },
+    "Ring road-Near Kengunte Junction": {
+      "freq": 7,
+      "avg_res": 97.133,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.959,
+      "lng": 77.504
+    },
+    "RingRoad-UllalJunction": {
+      "freq": 7,
+      "avg_res": 57.928,
+      "hp_rate": 0.0,
+      "closure_rate": 0.143,
+      "lat": 12.952,
+      "lng": 77.5
+    },
+    "RoyanCircle-Chamrajpete": {
+      "freq": 1,
+      "avg_res": 11.683,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.962,
+      "lng": 77.566
+    },
+    "SRS Peenya Junc": {
+      "freq": 20,
+      "avg_res": 25.602,
+      "hp_rate": 1.0,
+      "closure_rate": 0.05,
+      "lat": 13.035,
+      "lng": 77.53
+    },
+    "SadahalliGateJunc(AirportRd)": {
+      "freq": 7,
+      "avg_res": 317.706,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 13.191,
+      "lng": 77.646
+    },
+    "SadashivnagarJunc": {
+      "freq": 13,
+      "avg_res": 154.552,
+      "hp_rate": 0.0,
+      "closure_rate": 0.385,
+      "lat": 13.015,
+      "lng": 77.573
+    },
+    "SafinaPlazaJunc": {
+      "freq": 1,
+      "avg_res": 64.517,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.98,
+      "lng": 77.607
+    },
+    "SagarHospitalJunc": {
+      "freq": 5,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.928,
+      "lng": 77.6
+    },
+    "SagarTheatreJunc": {
+      "freq": 6,
+      "avg_res": 40.821,
+      "hp_rate": 0.0,
+      "closure_rate": 0.167,
+      "lat": 12.975,
+      "lng": 77.579
+    },
+    "SandeepUnnikrishnan-Yelhanka": {
+      "freq": 8,
+      "avg_res": 36.421,
+      "hp_rate": 0.0,
+      "closure_rate": 0.125,
+      "lat": 13.101,
+      "lng": 77.586
+    },
+    "SantheCircle": {
+      "freq": 25,
+      "avg_res": 148.71,
+      "hp_rate": 1.0,
+      "closure_rate": 0.2,
+      "lat": 13.097,
+      "lng": 77.598
+    },
+    "SarjapurRd-St JohnsRdJunc": {
+      "freq": 10,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.928,
+      "lng": 77.616
+    },
+    "SatteliteBusStandJunc": {
+      "freq": 43,
+      "avg_res": 78.015,
+      "hp_rate": 0.977,
+      "closure_rate": 0.023,
+      "lat": 12.954,
+      "lng": 77.543
+    },
+    "ShankarMuttCircle": {
+      "freq": 3,
+      "avg_res": 38.992,
+      "hp_rate": 0.0,
+      "closure_rate": 0.333,
+      "lat": 12.999,
+      "lng": 77.541
+    },
+    "ShantalaJunction": {
+      "freq": 15,
+      "avg_res": 50.213,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.975,
+      "lng": 77.57
+    },
+    "ShivajiTalkiesJunc": {
+      "freq": 7,
+      "avg_res": 44.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.143,
+      "lat": 12.963,
+      "lng": 77.582
+    },
+    "Shivajinagar(BRV)Junction": {
+      "freq": 16,
+      "avg_res": 53.189,
+      "hp_rate": 0.875,
+      "closure_rate": 0.0,
+      "lat": 12.98,
+      "lng": 77.603
+    },
+    "ShivanahalliJunctionWOC": {
+      "freq": 3,
+      "avg_res": 178.833,
+      "hp_rate": 1.0,
+      "closure_rate": 0.333,
+      "lat": 12.99,
+      "lng": 77.551
+    },
+    "ShivandaCircle": {
+      "freq": 12,
+      "avg_res": 49.547,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.988,
+      "lng": 77.58
+    },
+    "Shivashankara circle": {
+      "freq": 5,
+      "avg_res": 91.558,
+      "hp_rate": 0.0,
+      "closure_rate": 0.2,
+      "lat": 12.958,
+      "lng": 77.574
+    },
+    "SiddalingaiahCircle": {
+      "freq": 11,
+      "avg_res": 92.571,
+      "hp_rate": 1.0,
+      "closure_rate": 0.182,
+      "lat": 12.972,
+      "lng": 77.594
+    },
+    "SiddapuraJunction": {
+      "freq": 5,
+      "avg_res": 125.767,
+      "hp_rate": 0.0,
+      "closure_rate": 0.4,
+      "lat": 12.949,
+      "lng": 77.595
+    },
+    "SilkBoardJunc": {
+      "freq": 33,
+      "avg_res": 66.005,
+      "hp_rate": 1.0,
+      "closure_rate": 0.121,
+      "lat": 12.917,
+      "lng": 77.623
+    },
+    "SindhiColonyJunction": {
+      "freq": 9,
+      "avg_res": 58.108,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.995,
+      "lng": 77.616
+    },
+    "SirsiCircle": {
+      "freq": 9,
+      "avg_res": 31.098,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.961,
+      "lng": 77.56
+    },
+    "SonyworldJunction": {
+      "freq": 3,
+      "avg_res": 41.867,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.937,
+      "lng": 77.628
+    },
+    "South end circle": {
+      "freq": 3,
+      "avg_res": 18.2,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.938,
+      "lng": 77.58
+    },
+    "Srigandakaval": {
+      "freq": 14,
+      "avg_res": 87.37,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.988,
+      "lng": 77.51
+    },
+    "Srinivagilu(Ejipura)Junc": {
+      "freq": 4,
+      "avg_res": 16.95,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.939,
+      "lng": 77.634
+    },
+    "StateBankofMysoreJunc": {
+      "freq": 12,
+      "avg_res": 54.152,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.974,
+      "lng": 77.582
+    },
+    "SubbannaJunction": {
+      "freq": 9,
+      "avg_res": 205.825,
+      "hp_rate": 0.0,
+      "closure_rate": 0.222,
+      "lat": 12.983,
+      "lng": 77.577
+    },
+    "SubedarChatramRd near SheshadripuramPS": {
+      "freq": 8,
+      "avg_res": 30.917,
+      "hp_rate": 0.0,
+      "closure_rate": 0.5,
+      "lat": 12.988,
+      "lng": 77.574
+    },
+    "Sumanhalli": {
+      "freq": 16,
+      "avg_res": 55.875,
+      "hp_rate": 1.0,
+      "closure_rate": 0.062,
+      "lat": 12.987,
+      "lng": 77.52
+    },
+    "SwagathMainRd-EastEndRdJunc": {
+      "freq": 2,
+      "avg_res": 31.05,
+      "hp_rate": 0.5,
+      "closure_rate": 0.5,
+      "lat": 12.927,
+      "lng": 77.597
+    },
+    "TC Palya-OM RoadJunc": {
+      "freq": 4,
+      "avg_res": 84.725,
+      "hp_rate": 0.0,
+      "closure_rate": 0.25,
+      "lat": 13.017,
+      "lng": 77.706
+    },
+    "TVS CrossJunction": {
+      "freq": 1,
+      "avg_res": 74.8,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 13.028,
+      "lng": 77.519
+    },
+    "TamarikannanJunc": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.981,
+      "lng": 77.629
+    },
+    "TataInstituteCircle": {
+      "freq": 12,
+      "avg_res": 39.513,
+      "hp_rate": 0.917,
+      "closure_rate": 0.167,
+      "lat": 13.014,
+      "lng": 77.566
+    },
+    "ThomasCafe-New": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.991,
+      "lng": 77.614
+    },
+    "TownhallJunction": {
+      "freq": 30,
+      "avg_res": 39.808,
+      "hp_rate": 1.0,
+      "closure_rate": 0.067,
+      "lat": 12.964,
+      "lng": 77.584
+    },
+    "Trilight Circle,Race course Road": {
+      "freq": 2,
+      "avg_res": 63.35,
+      "hp_rate": 0.0,
+      "closure_rate": 1.0,
+      "lat": 12.984,
+      "lng": 77.583
+    },
+    "TrinityCircle": {
+      "freq": 11,
+      "avg_res": 53.306,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.972,
+      "lng": 77.619
+    },
+    "TumkurRdMarappanapalyaJunc": {
+      "freq": 14,
+      "avg_res": 40.152,
+      "hp_rate": 0.857,
+      "closure_rate": 0.0,
+      "lat": 13.019,
+      "lng": 77.553
+    },
+    "TyagiHengalvarayaJunc(DickensonRd)": {
+      "freq": 5,
+      "avg_res": 55.217,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.982,
+      "lng": 77.609
+    },
+    "UCO Bank(Forum)": {
+      "freq": 2,
+      "avg_res": 117.2,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.934,
+      "lng": 77.613
+    },
+    "UlsoorGateJunc": {
+      "freq": 12,
+      "avg_res": 33.423,
+      "hp_rate": 1.0,
+      "closure_rate": 0.167,
+      "lat": 12.967,
+      "lng": 77.587
+    },
+    "UniversityJunc(Janabharti)": {
+      "freq": 11,
+      "avg_res": 18.842,
+      "hp_rate": 1.0,
+      "closure_rate": 0.182,
+      "lat": 12.936,
+      "lng": 77.513
+    },
+    "UpparpetJunction": {
+      "freq": 2,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 1.0,
+      "lat": 12.974,
+      "lng": 77.575
+    },
+    "UrvashiJunction": {
+      "freq": 6,
+      "avg_res": 37.383,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.956,
+      "lng": 77.586
+    },
+    "UttarahalliJunction": {
+      "freq": 15,
+      "avg_res": 476.423,
+      "hp_rate": 0.0,
+      "closure_rate": 0.067,
+      "lat": 12.906,
+      "lng": 77.545
+    },
+    "VeerannapalyaJunction(BEL,HO)": {
+      "freq": 30,
+      "avg_res": 555.267,
+      "hp_rate": 1.0,
+      "closure_rate": 0.233,
+      "lat": 13.042,
+      "lng": 77.614
+    },
+    "VeerasandraGateJunction": {
+      "freq": 11,
+      "avg_res": 74.803,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.84,
+      "lng": 77.677
+    },
+    "VetenaryHospitalJunc-Shivajinagar": {
+      "freq": 4,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.99,
+      "lng": 77.599
+    },
+    "VijayanagarBusStandJunction": {
+      "freq": 6,
+      "avg_res": 17.892,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.973,
+      "lng": 77.539
+    },
+    "VishweswaraiahJunctio(Uttamsagar)": {
+      "freq": 1,
+      "avg_res": 0.0,
+      "hp_rate": 0.0,
+      "closure_rate": 1.0,
+      "lat": 13.011,
+      "lng": 77.646
+    },
+    "WebbsCircle": {
+      "freq": 3,
+      "avg_res": 149.867,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.974,
+      "lng": 77.614
+    },
+    "WilsonGarden10thCrossJunc": {
+      "freq": 6,
+      "avg_res": 51.85,
+      "hp_rate": 0.0,
+      "closure_rate": 0.0,
+      "lat": 12.946,
+      "lng": 77.596
+    },
+    "WilsonGarden12thCrossJunc": {
+      "freq": 8,
+      "avg_res": 28.675,
+      "hp_rate": 0.0,
+      "closure_rate": 0.125,
+      "lat": 12.945,
+      "lng": 77.597
+    },
+    "WiproJunc-Koramangala": {
+      "freq": 1,
+      "avg_res": 215.333,
+      "hp_rate": 0.0,
+      "closure_rate": 1.0,
+      "lat": 12.93,
+      "lng": 77.633
+    },
+    "YediyurMeternityHospital": {
+      "freq": 1,
+      "avg_res": 53.017,
+      "hp_rate": 0.0,
+      "closure_rate": 1.0,
+      "lat": 12.927,
+      "lng": 77.577
+    },
+    "YelhankaBypass": {
+      "freq": 19,
+      "avg_res": 61.038,
+      "hp_rate": 1.0,
+      "closure_rate": 0.053,
+      "lat": 13.082,
+      "lng": 77.593
+    },
+    "YelhankaCircle": {
+      "freq": 34,
+      "avg_res": 74.242,
+      "hp_rate": 0.912,
+      "closure_rate": 0.0,
+      "lat": 13.094,
+      "lng": 77.596
+    },
+    "Yemalur cross junc": {
+      "freq": 4,
+      "avg_res": 151.933,
+      "hp_rate": 1.0,
+      "closure_rate": 0.0,
+      "lat": 12.956,
+      "lng": 77.693
+    },
+    "YeshwanthpuraCircle": {
+      "freq": 38,
+      "avg_res": 34.968,
+      "hp_rate": 0.947,
+      "closure_rate": 0.026,
+      "lat": 13.018,
+      "lng": 77.557
+    },
+    "toll gate mysore road": {
+      "freq": 33,
+      "avg_res": 73.433,
+      "hp_rate": 0.97,
+      "closure_rate": 0.061,
+      "lat": 12.957,
+      "lng": 77.552
+    }
+  },
+  "corridorBaselines": {
+    "Airport New South Road": {
+      "freq": 67,
+      "avg_res": 222.457
+    },
+    "Bannerghata Road": {
+      "freq": 209,
+      "avg_res": 63.442
+    },
+    "Bellary Road 1": {
+      "freq": 610,
+      "avg_res": 110.127
+    },
+    "Bellary Road 2": {
+      "freq": 379,
+      "avg_res": 113.819
+    },
+    "CBD 1": {
+      "freq": 26,
+      "avg_res": 38.958
+    },
+    "CBD 2": {
+      "freq": 104,
+      "avg_res": 220.646
+    },
+    "Hennur Main Road": {
+      "freq": 96,
+      "avg_res": 109.71
+    },
+    "Hosur Road": {
+      "freq": 298,
+      "avg_res": 86.108
+    },
+    "IRR(Thanisandra road)": {
+      "freq": 95,
+      "avg_res": 57.099
+    },
+    "Magadi Road": {
+      "freq": 245,
+      "avg_res": 82.48
+    },
+    "Mysore Road": {
+      "freq": 743,
+      "avg_res": 80.669
+    },
+    "Non-corridor": {
+      "freq": 3124,
+      "avg_res": 126.755
+    },
+    "ORR East 1": {
+      "freq": 244,
+      "avg_res": 143.628
+    },
+    "ORR East 2": {
+      "freq": 187,
+      "avg_res": 539.625
+    },
+    "ORR North 1": {
+      "freq": 275,
+      "avg_res": 145.352
+    },
+    "ORR North 2": {
+      "freq": 235,
+      "avg_res": 72.105
+    },
+    "ORR West 1": {
+      "freq": 168,
+      "avg_res": 126.174
+    },
+    "Old Airport Road": {
+      "freq": 76,
+      "avg_res": 135.273
+    },
+    "Old Madras Road": {
+      "freq": 263,
+      "avg_res": 117.832
+    },
+    "Tumkur Road": {
+      "freq": 458,
+      "avg_res": 87.858
+    },
+    "Varthur Road": {
+      "freq": 77,
+      "avg_res": 117.772
+    },
+    "West of Chord Road": {
+      "freq": 174,
+      "avg_res": 49.817
+    }
+  },
+  "zoneBaselines": {
+    "Central Zone 1": {
+      "freq": 269,
+      "avg_res": 88.006
+    },
+    "Central Zone 2": {
+      "freq": 623,
+      "avg_res": 81.685
+    },
+    "East Zone 1": {
+      "freq": 253,
+      "avg_res": 349.772
+    },
+    "East Zone 2": {
+      "freq": 190,
+      "avg_res": 105.045
+    },
+    "North Zone 1": {
+      "freq": 318,
+      "avg_res": 157.771
+    },
+    "North Zone 2": {
+      "freq": 413,
+      "avg_res": 114.429
+    },
+    "South Zone 1": {
+      "freq": 233,
+      "avg_res": 159.961
+    },
+    "South Zone 2": {
+      "freq": 354,
+      "avg_res": 86.85
+    },
+    "West Zone 1": {
+      "freq": 433,
+      "avg_res": 65.712
+    },
+    "West Zone 2": {
+      "freq": 358,
+      "avg_res": 86.577
+    }
+  },
+  "policeStationBaselines": {
+    "Adugodi": {
+      "freq": 120,
+      "avg_res": 80.584,
+      "lat": 12.934,
+      "lng": 77.619
+    },
+    "Ashok Nagar": {
+      "freq": 171,
+      "avg_res": 129.289,
+      "lat": 12.962,
+      "lng": 77.61
+    },
+    "Banashankari": {
+      "freq": 102,
+      "avg_res": 56.02,
+      "lat": 12.923,
+      "lng": 77.557
+    },
+    "Banaswadi": {
+      "freq": 245,
+      "avg_res": 112.121,
+      "lat": 13.001,
+      "lng": 77.657
+    },
+    "Basavanagudi": {
+      "freq": 47,
+      "avg_res": 227.09,
+      "lat": 12.943,
+      "lng": 77.571
+    },
+    "Bellandur": {
+      "freq": 98,
+      "avg_res": 187.727,
+      "lat": 12.919,
+      "lng": 77.67
+    },
+    "Byatarayanapura": {
+      "freq": 297,
+      "avg_res": 74.382,
+      "lat": 12.949,
+      "lng": 77.534
+    },
+    "Chamarajpet": {
+      "freq": 192,
+      "avg_res": 109.499,
+      "lat": 12.966,
+      "lng": 77.564
+    },
+    "Chikkabanavara": {
+      "freq": 118,
+      "avg_res": 30.417,
+      "lat": 13.048,
+      "lng": 77.506
+    },
+    "Chikkajala": {
+      "freq": 74,
+      "avg_res": 158.345,
+      "lat": 13.165,
+      "lng": 77.642
+    },
+    "City Market": {
+      "freq": 27,
+      "avg_res": 88.838,
+      "lat": 12.962,
+      "lng": 77.578
+    },
+    "Cubbon Park": {
+      "freq": 212,
+      "avg_res": 139.994,
+      "lat": 12.978,
+      "lng": 77.596
+    },
+    "Devanahalli Airport": {
+      "freq": 37,
+      "avg_res": 50.736,
+      "lat": 13.238,
+      "lng": 77.702
+    },
+    "Electronic City": {
+      "freq": 124,
+      "avg_res": 77.712,
+      "lat": 12.852,
+      "lng": 77.665
+    },
+    "HAL Old Airport": {
+      "freq": 361,
+      "avg_res": 432.434,
+      "lat": 12.953,
+      "lng": 77.697
+    },
+    "HSR Layout": {
+      "freq": 116,
+      "avg_res": 119.767,
+      "lat": 12.91,
+      "lng": 77.632
+    },
+    "Halasur": {
+      "freq": 118,
+      "avg_res": 217.54,
+      "lat": 12.969,
+      "lng": 77.626
+    },
+    "Halasuru Gate": {
+      "freq": 297,
+      "avg_res": 60.448,
+      "lat": 12.967,
+      "lng": 77.587
+    },
+    "Hebbala": {
+      "freq": 135,
+      "avg_res": 79.548,
+      "lat": 13.044,
+      "lng": 77.596
+    },
+    "Hennuru": {
+      "freq": 276,
+      "avg_res": 213.204,
+      "lat": 13.045,
+      "lng": 77.633
+    },
+    "High ground": {
+      "freq": 185,
+      "avg_res": 105.877,
+      "lat": 12.989,
+      "lng": 77.585
+    },
+    "Hulimavu": {
+      "freq": 117,
+      "avg_res": 79.836,
+      "lat": 12.873,
+      "lng": 77.604
+    },
+    "J.P. Nagar": {
+      "freq": 124,
+      "avg_res": 464.475,
+      "lat": 12.903,
+      "lng": 77.59
+    },
+    "Jalahalli": {
+      "freq": 197,
+      "avg_res": 64.698,
+      "lat": 13.044,
+      "lng": 77.549
+    },
+    "Jayanagara": {
+      "freq": 178,
+      "avg_res": 155.089,
+      "lat": 12.921,
+      "lng": 77.588
+    },
+    "Jeevanbheemanagar": {
+      "freq": 127,
+      "avg_res": 106.318,
+      "lat": 12.973,
+      "lng": 77.646
+    },
+    "Jnanabharathi": {
+      "freq": 134,
+      "avg_res": 70.346,
+      "lat": 12.96,
+      "lng": 77.508
+    },
+    "K.G. Halli": {
+      "freq": 74,
+      "avg_res": 236.929,
+      "lat": 13.03,
+      "lng": 77.62
+    },
+    "K.R. Pura": {
+      "freq": 228,
+      "avg_res": 73.707,
+      "lat": 13.016,
+      "lng": 77.706
+    },
+    "K.S. Layout": {
+      "freq": 89,
+      "avg_res": 201.939,
+      "lat": 12.909,
+      "lng": 77.558
+    },
+    "Kamakshipalya": {
+      "freq": 224,
+      "avg_res": 82.753,
+      "lat": 12.988,
+      "lng": 77.508
+    },
+    "Kengeri": {
+      "freq": 44,
+      "avg_res": 82.88,
+      "lat": 12.913,
+      "lng": 77.484
+    },
+    "Kodigehalli": {
+      "freq": 272,
+      "avg_res": 212.967,
+      "lat": 13.047,
+      "lng": 77.586
+    },
+    "Madiwala": {
+      "freq": 184,
+      "avg_res": 82.677,
+      "lat": 12.918,
+      "lng": 77.621
+    },
+    "Magadi Road": {
+      "freq": 142,
+      "avg_res": 63.969,
+      "lat": 12.974,
+      "lng": 77.557
+    },
+    "Mahadevapura": {
+      "freq": 120,
+      "avg_res": 113.024,
+      "lat": 12.993,
+      "lng": 77.718
+    },
+    "Malleshwaram": {
+      "freq": 80,
+      "avg_res": 70.426,
+      "lat": 13.004,
+      "lng": 77.562
+    },
+    "Mico Layout": {
+      "freq": 116,
+      "avg_res": 69.8,
+      "lat": 12.913,
+      "lng": 77.605
+    },
+    "No Police Station": {
+      "freq": 219,
+      "avg_res": 163.269,
+      "lat": 13.034,
+      "lng": 77.5
+    },
+    "Peenya": {
+      "freq": 178,
+      "avg_res": 76.24,
+      "lat": 13.039,
+      "lng": 77.515
+    },
+    "Pulikeshinagar(F.Town)": {
+      "freq": 74,
+      "avg_res": 69.348,
+      "lat": 12.997,
+      "lng": 77.615
+    },
+    "R.T. Nagar": {
+      "freq": 127,
+      "avg_res": 81.036,
+      "lat": 13.015,
+      "lng": 77.59
+    },
+    "Rajajinagar": {
+      "freq": 104,
+      "avg_res": 46.829,
+      "lat": 13.005,
+      "lng": 77.541
+    },
+    "Sadashivanagar": {
+      "freq": 302,
+      "avg_res": 103.823,
+      "lat": 13.01,
+      "lng": 77.58
+    },
+    "Sheshadripuram": {
+      "freq": 123,
+      "avg_res": 118.853,
+      "lat": 12.987,
+      "lng": 77.573
+    },
+    "Shivajinagar": {
+      "freq": 93,
+      "avg_res": 104.419,
+      "lat": 12.983,
+      "lng": 77.603
+    },
+    "Thalagattapura": {
+      "freq": 50,
+      "avg_res": 129.912,
+      "lat": 12.872,
+      "lng": 77.548
+    },
+    "Upparpet": {
+      "freq": 63,
+      "avg_res": 50.649,
+      "lat": 12.977,
+      "lng": 77.577
+    },
+    "V.V.Puram (C.Pet)": {
+      "freq": 37,
+      "avg_res": 51.613,
+      "lat": 12.958,
+      "lng": 77.573
+    },
+    "Vijayanagara": {
+      "freq": 58,
+      "avg_res": 113.167,
+      "lat": 12.979,
+      "lng": 77.542
+    },
+    "Whitefield": {
+      "freq": 181,
+      "avg_res": 108.189,
+      "lat": 12.951,
+      "lng": 77.741
+    },
+    "Wilson Garden": {
+      "freq": 105,
+      "avg_res": 87.027,
+      "lat": 12.948,
+      "lng": 77.593
+    },
+    "Yelahanka": {
+      "freq": 377,
+      "avg_res": 156.452,
+      "lat": 13.101,
+      "lng": 77.596
+    },
+    "Yeshwanthpura": {
+      "freq": 280,
+      "avg_res": 98.783,
+      "lat": 13.026,
+      "lng": 77.545
+    }
+  },
+  "hourBlockBaselines": {
+    "0": {
+      "freq": 2552,
+      "avg_res": 168.964
+    },
+    "4": {
+      "freq": 1798,
+      "avg_res": 96.164
+    },
+    "8": {
+      "freq": 2117,
+      "avg_res": 94.539
+    },
+    "12": {
+      "freq": 1332,
+      "avg_res": 150.314
+    },
+    "16": {
+      "freq": 235,
+      "avg_res": 207.701
+    },
+    "20": {
+      "freq": 139,
+      "avg_res": 143.541
+    }
+  },
+  "cascadeGraph": {
+    "CommandoHospitalJunc": [
+      {
+        "junction": "WebbsCircle",
+        "coFailures": 2
+      }
+    ],
+    "WebbsCircle": [
+      {
+        "junction": "CommandoHospitalJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "AnilKumbleCircle",
+        "coFailures": 1
+      }
+    ],
+    "OldMadrasRd-SuddaguntepalyaRdJunc": [
+      {
+        "junction": "CMP GateJunc",
+        "coFailures": 2
+      }
+    ],
+    "CMP GateJunc": [
+      {
+        "junction": "OldMadrasRd-SuddaguntepalyaRdJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "CashPharmacyJunction",
+        "coFailures": 2
+      },
+      {
+        "junction": "D'SouzaCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "MayohallJunction",
+        "coFailures": 1
+      }
+    ],
+    "OldPoliceStation-Ashoknagar": [
+      {
+        "junction": "ISRO Junction-Airport rd",
+        "coFailures": 1
+      },
+      {
+        "junction": "TrinityCircle",
+        "coFailures": 1
+      }
+    ],
+    "ISRO Junction-Airport rd": [
+      {
+        "junction": "OldPoliceStation-Ashoknagar",
+        "coFailures": 1
+      },
+      {
+        "junction": "BucheryJunction",
+        "coFailures": 1
+      }
+    ],
+    "SindhiColonyJunction": [
+      {
+        "junction": "Ashoknagar Junction(ShoolayCircle)",
+        "coFailures": 1
+      },
+      {
+        "junction": "KamrajRdJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "MayohallJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "Batrayanapura(Amrutahalli)Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "YelhankaBypass",
+        "coFailures": 1
+      }
+    ],
+    "Ashoknagar Junction(ShoolayCircle)": [
+      {
+        "junction": "BigBazaarJunction(OldMadrasRd)",
+        "coFailures": 4
+      },
+      {
+        "junction": "SindhiColonyJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "KamrajRdJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "MayohallJunction",
+        "coFailures": 1
+      }
+    ],
+    "KamrajRdJunction": [
+      {
+        "junction": "SindhiColonyJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "Ashoknagar Junction(ShoolayCircle)",
+        "coFailures": 1
+      },
+      {
+        "junction": "MayohallJunction",
+        "coFailures": 1
+      }
+    ],
+    "MayohallJunction": [
+      {
+        "junction": "SindhiColonyJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "Ashoknagar Junction(ShoolayCircle)",
+        "coFailures": 1
+      },
+      {
+        "junction": "KamrajRdJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "CMP GateJunc",
+        "coFailures": 1
+      }
+    ],
+    "OldMadrasRd-Indranagar100ftRdJunc": [
+      {
+        "junction": "BMTCJunction-K H Road",
+        "coFailures": 2
+      },
+      {
+        "junction": "Srinivagilu(Ejipura)Junc",
+        "coFailures": 2
+      },
+      {
+        "junction": "BigBazaarJunction(OldMadrasRd)",
+        "coFailures": 2
+      },
+      {
+        "junction": "AgaraJunction",
+        "coFailures": 1
+      }
+    ],
+    "BMTCJunction-K H Road": [
+      {
+        "junction": "OldMadrasRd-Indranagar100ftRdJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "Shivajinagar(BRV)Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "Richmond circle jn",
+        "coFailures": 1
+      },
+      {
+        "junction": "BloodBankCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "AnepalyaJunc",
+        "coFailures": 1
+      }
+    ],
+    "KensingtonOvalJunc": [
+      {
+        "junction": "LowerAgaram(IndiaGarage)Junc",
+        "coFailures": 1
+      }
+    ],
+    "LowerAgaram(IndiaGarage)Junc": [
+      {
+        "junction": "KensingtonOvalJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "AnepalyaJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "DomlurWaterTank",
+        "coFailures": 1
+      }
+    ],
+    "Shivajinagar(BRV)Junction": [
+      {
+        "junction": "DomlurWaterTank",
+        "coFailures": 1
+      },
+      {
+        "junction": "Richmond circle jn",
+        "coFailures": 1
+      },
+      {
+        "junction": "BMTCJunction-K H Road",
+        "coFailures": 1
+      },
+      {
+        "junction": "BloodBankCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "IndianExpressJunction",
+        "coFailures": 1
+      }
+    ],
+    "DomlurWaterTank": [
+      {
+        "junction": "Shivajinagar(BRV)Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "OldMadrasRd-DoubleRdJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "AnepalyaJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "LowerAgaram(IndiaGarage)Junc",
+        "coFailures": 1
+      },
+      {
+        "junction": "AshirwadamCircle",
+        "coFailures": 1
+      }
+    ],
+    "OldMadrasRd-DoubleRdJunc": [
+      {
+        "junction": "DomlurWaterTank",
+        "coFailures": 1
+      },
+      {
+        "junction": "SiddalingaiahCircle",
+        "coFailures": 1
+      }
+    ],
+    "OldMadrasRd-80FeetRdJunc": [
+      {
+        "junction": "MotherTeressaCircle",
+        "coFailures": 2
+      },
+      {
+        "junction": "Srinivagilu(Ejipura)Junc",
+        "coFailures": 1
+      }
+    ],
+    "Srinivagilu(Ejipura)Junc": [
+      {
+        "junction": "OldMadrasRd-Indranagar100ftRdJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "OldMadrasRd-80FeetRdJunc",
+        "coFailures": 1
+      }
+    ],
+    "AnilKumbleCircle": [
+      {
+        "junction": "WebbsCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "ASC Junction",
+        "coFailures": 1
+      }
+    ],
+    "BucheryJunction": [
+      {
+        "junction": "Bommanahalli",
+        "coFailures": 3
+      },
+      {
+        "junction": "ISRO Junction-Airport rd",
+        "coFailures": 1
+      },
+      {
+        "junction": "JohnsonMarket",
+        "coFailures": 1
+      },
+      {
+        "junction": "Marigowda-TavarkereRdJunc",
+        "coFailures": 1
+      }
+    ],
+    "BigBazaarJunction(OldMadrasRd)": [
+      {
+        "junction": "Ashoknagar Junction(ShoolayCircle)",
+        "coFailures": 4
+      },
+      {
+        "junction": "OldMadrasRd-Indranagar100ftRdJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "QueensStatueCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "MotherTeressaCircle",
+        "coFailures": 1
+      }
+    ],
+    "QueensStatueCircle": [
+      {
+        "junction": "BigBazaarJunction(OldMadrasRd)",
+        "coFailures": 1
+      }
+    ],
+    "ASC Junction": [
+      {
+        "junction": "AnilKumbleCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "OperaHouseJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "AshirwadamCircle",
+        "coFailures": 1
+      }
+    ],
+    "OperaHouseJunc": [
+      {
+        "junction": "Richmond circle jn",
+        "coFailures": 2
+      },
+      {
+        "junction": "ASC Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "AnepalyaJunc",
+        "coFailures": 1
+      }
+    ],
+    "D'SouzaCircle": [
+      {
+        "junction": "CMP GateJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "MotherTeressaCircle",
+        "coFailures": 1
+      }
+    ],
+    "Richmond circle jn": [
+      {
+        "junction": "BloodBankCircle",
+        "coFailures": 3
+      },
+      {
+        "junction": "PoliceCornerJunc",
+        "coFailures": 3
+      },
+      {
+        "junction": "OperaHouseJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "PurnimaTheaterJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "Shivajinagar(BRV)Junction",
+        "coFailures": 1
+      }
+    ],
+    "BloodBankCircle": [
+      {
+        "junction": "Richmond circle jn",
+        "coFailures": 3
+      },
+      {
+        "junction": "Shivajinagar(BRV)Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "BMTCJunction-K H Road",
+        "coFailures": 1
+      },
+      {
+        "junction": "PoliceTimmaiahCircle(GPO)",
+        "coFailures": 1
+      },
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 1
+      }
+    ],
+    "AshirwadamCircle": [
+      {
+        "junction": "ASC Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "DomlurWaterTank",
+        "coFailures": 1
+      }
+    ],
+    "AnepalyaJunc": [
+      {
+        "junction": "DomlurWaterTank",
+        "coFailures": 1
+      },
+      {
+        "junction": "LowerAgaram(IndiaGarage)Junc",
+        "coFailures": 1
+      },
+      {
+        "junction": "BMTCJunction-K H Road",
+        "coFailures": 1
+      },
+      {
+        "junction": "OperaHouseJunc",
+        "coFailures": 1
+      }
+    ],
+    "BM ShriJunc(CMH-100FtRd)Junc": [
+      {
+        "junction": "DomlurWaterTank",
+        "coFailures": 1
+      }
+    ],
+    "CashPharmacyJunction": [
+      {
+        "junction": "CMP GateJunc",
+        "coFailures": 2
+      }
+    ],
+    "MotherTeressaCircle": [
+      {
+        "junction": "OldMadrasRd-80FeetRdJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "BigBazaarJunction(OldMadrasRd)",
+        "coFailures": 1
+      },
+      {
+        "junction": "D'SouzaCircle",
+        "coFailures": 1
+      }
+    ],
+    "JohnsonMarket": [
+      {
+        "junction": "BucheryJunction",
+        "coFailures": 1
+      }
+    ],
+    "TrinityCircle": [
+      {
+        "junction": "OldPoliceStation-Ashoknagar",
+        "coFailures": 1
+      }
+    ],
+    "AgaraJunction": [
+      {
+        "junction": "OldMadrasRd-Indranagar100ftRdJunc",
+        "coFailures": 1
+      }
+    ],
+    "SiddalingaiahCircle": [
+      {
+        "junction": "ShivandaCircle",
+        "coFailures": 3
+      },
+      {
+        "junction": "OldMadrasRd-DoubleRdJunc",
+        "coFailures": 1
+      }
+    ],
+    "PoliceTimmaiahCircle(GPO)": [
+      {
+        "junction": "BloodBankCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "PurnimaTheaterJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "toll gate mysore road",
+        "coFailures": 1
+      },
+      {
+        "junction": "KrishnaFlourMill",
+        "coFailures": 1
+      },
+      {
+        "junction": "MICO Bande",
+        "coFailures": 1
+      }
+    ],
+    "TownhallJunction": [
+      {
+        "junction": "BiryandCircle",
+        "coFailures": 2
+      },
+      {
+        "junction": "MillCornerRd-SampigeRdJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "K R Circle",
+        "coFailures": 2
+      },
+      {
+        "junction": "BMTCJunction-K H Road",
+        "coFailures": 1
+      },
+      {
+        "junction": "Shivashankara circle",
+        "coFailures": 1
+      }
+    ],
+    "Shivashankara circle": [
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "BMTCJunction-K H Road",
+        "coFailures": 1
+      },
+      {
+        "junction": "SubbannaJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "AnandRaoJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "DairyCircle",
+        "coFailures": 1
+      }
+    ],
+    "K R Circle": [
+      {
+        "junction": "PlatformRdJunction",
+        "coFailures": 2
+      },
+      {
+        "junction": "CID-CarltonHouseJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "MinskSquare(CTO Junction)",
+        "coFailures": 2
+      },
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 2
+      },
+      {
+        "junction": "MillCornerRd-SampigeRdJunc",
+        "coFailures": 1
+      }
+    ],
+    "PlatformRdJunction": [
+      {
+        "junction": "K R Circle",
+        "coFailures": 2
+      },
+      {
+        "junction": "MICO Bande",
+        "coFailures": 2
+      },
+      {
+        "junction": "toll gate mysore road",
+        "coFailures": 1
+      }
+    ],
+    "toll gate mysore road": [
+      {
+        "junction": "KhodaysCircle(DV UrsCircle)",
+        "coFailures": 7
+      },
+      {
+        "junction": "LalbaghWestGate",
+        "coFailures": 4
+      },
+      {
+        "junction": "TyagiHengalvarayaJunc(DickensonRd)",
+        "coFailures": 3
+      },
+      {
+        "junction": "Dr TCM RoyanRd near AmbedkarStatue",
+        "coFailures": 3
+      },
+      {
+        "junction": "K R MarketJunction",
+        "coFailures": 3
+      }
+    ],
+    "MICO Bande": [
+      {
+        "junction": "PlatformRdJunction",
+        "coFailures": 2
+      },
+      {
+        "junction": "toll gate mysore road",
+        "coFailures": 2
+      },
+      {
+        "junction": "PoliceTimmaiahCircle(GPO)",
+        "coFailures": 1
+      },
+      {
+        "junction": "Bommanahalli",
+        "coFailures": 1
+      },
+      {
+        "junction": "MeenakshiMallJunc",
+        "coFailures": 1
+      }
+    ],
+    "IndianExpressJunction": [
+      {
+        "junction": "BangaloreBodyBuildersJunc",
+        "coFailures": 4
+      },
+      {
+        "junction": "LRDE Junction",
+        "coFailures": 2
+      },
+      {
+        "junction": "PoliceCornerJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "RRR(Okalipuram)Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "Shivajinagar(BRV)Junction",
+        "coFailures": 1
+      }
+    ],
+    "RRR(Okalipuram)Junction": [
+      {
+        "junction": "IndianExpressJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "Shivajinagar(BRV)Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "BMTCJunction-K H Road",
+        "coFailures": 1
+      },
+      {
+        "junction": "ShantalaJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "LRDE Junction",
+        "coFailures": 1
+      }
+    ],
+    "TyagiHengalvarayaJunc(DickensonRd)": [
+      {
+        "junction": "toll gate mysore road",
+        "coFailures": 3
+      }
+    ],
+    "PoliceCornerJunc": [
+      {
+        "junction": "PurnimaTheaterJunc",
+        "coFailures": 7
+      },
+      {
+        "junction": "Dr TCM RoyanRd near AmbedkarStatue",
+        "coFailures": 5
+      },
+      {
+        "junction": "SubedarChatramRd near SheshadripuramPS",
+        "coFailures": 3
+      },
+      {
+        "junction": "Richmond circle jn",
+        "coFailures": 3
+      },
+      {
+        "junction": "N R SquareJunc",
+        "coFailures": 2
+      }
+    ],
+    "EliteJunc": [
+      {
+        "junction": "PoliceCornerJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "K R Circle",
+        "coFailures": 1
+      },
+      {
+        "junction": "BinnyMillJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "VetenaryHospitalJunc-Shivajinagar",
+        "coFailures": 1
+      }
+    ],
+    "StateBankofMysoreJunc": [
+      {
+        "junction": "PriyadarshiniHotel,Jayamahal,RT Nagar",
+        "coFailures": 1
+      },
+      {
+        "junction": "MintoJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "Dr TCM RoyanRd near AmbedkarStatue",
+        "coFailures": 1
+      },
+      {
+        "junction": "LeprosyhospitalJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "SubedarChatramRd near SheshadripuramPS",
+        "coFailures": 1
+      }
+    ],
+    "PriyadarshiniHotel,Jayamahal,RT Nagar": [
+      {
+        "junction": "StateBankofMysoreJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "A S CharStreet-MysoreRdJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "MintoJunction",
+        "coFailures": 1
+      }
+    ],
+    "A S CharStreet-MysoreRdJunc": [
+      {
+        "junction": "PriyadarshiniHotel,Jayamahal,RT Nagar",
+        "coFailures": 1
+      },
+      {
+        "junction": "N R SquareJunc",
+        "coFailures": 1
+      }
+    ],
+    "Dr TCM RoyanRd near AmbedkarStatue": [
+      {
+        "junction": "SubedarChatramRd near SheshadripuramPS",
+        "coFailures": 8
+      },
+      {
+        "junction": "PoliceCornerJunc",
+        "coFailures": 5
+      },
+      {
+        "junction": "LeprosyhospitalJunc",
+        "coFailures": 3
+      },
+      {
+        "junction": "toll gate mysore road",
+        "coFailures": 3
+      },
+      {
+        "junction": "StateBankofMysoreJunc",
+        "coFailures": 1
+      }
+    ],
+    "HalliThindi": [
+      {
+        "junction": "BinnyMillJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "BiryandCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "N R SquareJunc",
+        "coFailures": 1
+      }
+    ],
+    "BinnyMillJunction": [
+      {
+        "junction": "HalliThindi",
+        "coFailures": 1
+      },
+      {
+        "junction": "PoliceCornerJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "KrishnaFlourMill",
+        "coFailures": 1
+      },
+      {
+        "junction": "UlsoorGateJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "SiddapuraJunction",
+        "coFailures": 1
+      }
+    ],
+    "ShantalaJunction": [
+      {
+        "junction": "HudsonCircle",
+        "coFailures": 2
+      },
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "BMTCJunction-K H Road",
+        "coFailures": 1
+      },
+      {
+        "junction": "RRR(Okalipuram)Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "BloodBankCircle",
+        "coFailures": 1
+      }
+    ],
+    "MillCornerRd-SampigeRdJunc": [
+      {
+        "junction": "BangaloreBodyBuildersJunc",
+        "coFailures": 4
+      },
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 2
+      },
+      {
+        "junction": "CoffeeBoardJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "K R Circle",
+        "coFailures": 1
+      }
+    ],
+    "WilsonGarden12thCrossJunc": [
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "Bommanahalli",
+        "coFailures": 1
+      },
+      {
+        "junction": "SilkBoardJunc",
+        "coFailures": 1
+      }
+    ],
+    "HudsonCircle": [
+      {
+        "junction": "RoyanCircle-Chamrajpete",
+        "coFailures": 2
+      },
+      {
+        "junction": "ShantalaJunction",
+        "coFailures": 2
+      },
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "ChaudrayaCircle/UdayaTVCircle(CantonmentJunc)",
+        "coFailures": 1
+      },
+      {
+        "junction": "MinskSquare(CTO Junction)",
+        "coFailures": 1
+      }
+    ],
+    "ChaudrayaCircle/UdayaTVCircle(CantonmentJunc)": [
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "HudsonCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "MinskSquare(CTO Junction)",
+        "coFailures": 1
+      },
+      {
+        "junction": "KrishnaFlourMill",
+        "coFailures": 1
+      },
+      {
+        "junction": "KhodaysCircle(DV UrsCircle)",
+        "coFailures": 1
+      }
+    ],
+    "MinskSquare(CTO Junction)": [
+      {
+        "junction": "MintoJunction",
+        "coFailures": 2
+      },
+      {
+        "junction": "K R Circle",
+        "coFailures": 2
+      },
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "HudsonCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "ChaudrayaCircle/UdayaTVCircle(CantonmentJunc)",
+        "coFailures": 1
+      }
+    ],
+    "LRDE Junction": [
+      {
+        "junction": "IndianExpressJunction",
+        "coFailures": 2
+      },
+      {
+        "junction": "RRR(Okalipuram)Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "SubbannaJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "UlsoorGateJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "StateBankofMysoreJunc",
+        "coFailures": 1
+      }
+    ],
+    "BangaloreBodyBuildersJunc": [
+      {
+        "junction": "IndianExpressJunction",
+        "coFailures": 4
+      },
+      {
+        "junction": "MillCornerRd-SampigeRdJunc",
+        "coFailures": 4
+      },
+      {
+        "junction": "KhodaysCircle(DV UrsCircle)",
+        "coFailures": 3
+      },
+      {
+        "junction": "K R Circle",
+        "coFailures": 1
+      },
+      {
+        "junction": "PoliceCornerJunc",
+        "coFailures": 1
+      }
+    ],
+    "MintoJunction": [
+      {
+        "junction": "MinskSquare(CTO Junction)",
+        "coFailures": 2
+      },
+      {
+        "junction": "StateBankofMysoreJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "PriyadarshiniHotel,Jayamahal,RT Nagar",
+        "coFailures": 1
+      },
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "PurnimaTheaterJunc",
+        "coFailures": 1
+      }
+    ],
+    "LeprosyhospitalJunc": [
+      {
+        "junction": "Dr TCM RoyanRd near AmbedkarStatue",
+        "coFailures": 3
+      },
+      {
+        "junction": "UlsoorGateJunc",
+        "coFailures": 3
+      },
+      {
+        "junction": "KrishnaFlourMill",
+        "coFailures": 2
+      },
+      {
+        "junction": "StateBankofMysoreJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "IndianExpressJunction",
+        "coFailures": 1
+      }
+    ],
+    "UlsoorGateJunc": [
+      {
+        "junction": "LeprosyhospitalJunc",
+        "coFailures": 3
+      },
+      {
+        "junction": "KrishnaFlourMill",
+        "coFailures": 2
+      },
+      {
+        "junction": "SirsiCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "BinnyMillJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "PoliceTimmaiahCircle(GPO)",
+        "coFailures": 1
+      }
+    ],
+    "KhodaysCircle(DV UrsCircle)": [
+      {
+        "junction": "toll gate mysore road",
+        "coFailures": 7
+      },
+      {
+        "junction": "CID-CarltonHouseJunc",
+        "coFailures": 3
+      },
+      {
+        "junction": "BangaloreBodyBuildersJunc",
+        "coFailures": 3
+      },
+      {
+        "junction": "BegumMahalJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 1
+      }
+    ],
+    "BegumMahalJunc": [
+      {
+        "junction": "toll gate mysore road",
+        "coFailures": 2
+      },
+      {
+        "junction": "KhodaysCircle(DV UrsCircle)",
+        "coFailures": 2
+      },
+      {
+        "junction": "DevangaHostelJunction",
+        "coFailures": 1
+      }
+    ],
+    "N R SquareJunc": [
+      {
+        "junction": "PoliceCornerJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "WilsonGarden10thCrossJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "SirsiCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "A S CharStreet-MysoreRdJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "HalliThindi",
+        "coFailures": 1
+      }
+    ],
+    "WilsonGarden10thCrossJunc": [
+      {
+        "junction": "N R SquareJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "BasaweshwaraCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "ShivandaCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "HudsonCircle",
+        "coFailures": 1
+      }
+    ],
+    "PurnimaTheaterJunc": [
+      {
+        "junction": "PoliceCornerJunc",
+        "coFailures": 7
+      },
+      {
+        "junction": "Richmond circle jn",
+        "coFailures": 2
+      },
+      {
+        "junction": "PoliceTimmaiahCircle(GPO)",
+        "coFailures": 1
+      },
+      {
+        "junction": "MintoJunction",
+        "coFailures": 1
+      }
+    ],
+    "ShivandaCircle": [
+      {
+        "junction": "SiddalingaiahCircle",
+        "coFailures": 3
+      },
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "WilsonGarden10thCrossJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "HudsonCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "MintoJunction",
+        "coFailures": 1
+      }
+    ],
+    "SirsiCircle": [
+      {
+        "junction": "N R SquareJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "KrishnaFlourMill",
+        "coFailures": 1
+      },
+      {
+        "junction": "UlsoorGateJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "BloodBankCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "IndianExpressJunction",
+        "coFailures": 1
+      }
+    ],
+    "NIMHANS Junction": [
+      {
+        "junction": "BMTCJunction-K H Road",
+        "coFailures": 1
+      },
+      {
+        "junction": "Bommanahalli",
+        "coFailures": 1
+      }
+    ],
+    "SubbannaJunction": [
+      {
+        "junction": "HudsonCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "LRDE Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "Shivashankara circle",
+        "coFailures": 1
+      },
+      {
+        "junction": "KhodaysCircle(DV UrsCircle)",
+        "coFailures": 1
+      },
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 1
+      }
+    ],
+    "CID-CarltonHouseJunc": [
+      {
+        "junction": "KhodaysCircle(DV UrsCircle)",
+        "coFailures": 3
+      },
+      {
+        "junction": "K R Circle",
+        "coFailures": 2
+      },
+      {
+        "junction": "PoliceCornerJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "IndianExpressJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "SirsiCircle",
+        "coFailures": 1
+      }
+    ],
+    "BiryandCircle": [
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 2
+      },
+      {
+        "junction": "HalliThindi",
+        "coFailures": 1
+      },
+      {
+        "junction": "N R SquareJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "KarnatakaBhavanJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "RamaiahCircle-UlsoorPoliceStation",
+        "coFailures": 1
+      }
+    ],
+    "ShivajiTalkiesJunc": [
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "LeprosyhospitalJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "SubedarChatramRd near SheshadripuramPS",
+        "coFailures": 1
+      }
+    ],
+    "GopalGowdaJUnc": [
+      {
+        "junction": "toll gate mysore road",
+        "coFailures": 2
+      }
+    ],
+    "KrishnaFlourMill": [
+      {
+        "junction": "UlsoorGateJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "LeprosyhospitalJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "toll gate mysore road",
+        "coFailures": 1
+      },
+      {
+        "junction": "PoliceTimmaiahCircle(GPO)",
+        "coFailures": 1
+      },
+      {
+        "junction": "SirsiCircle",
+        "coFailures": 1
+      }
+    ],
+    "SubedarChatramRd near SheshadripuramPS": [
+      {
+        "junction": "Dr TCM RoyanRd near AmbedkarStatue",
+        "coFailures": 8
+      },
+      {
+        "junction": "PoliceCornerJunc",
+        "coFailures": 3
+      },
+      {
+        "junction": "StateBankofMysoreJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "DevangaHostelJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "BloodBankCircle",
+        "coFailures": 1
+      }
+    ],
+    "SiddapuraJunction": [
+      {
+        "junction": "StateBankofMysoreJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "BinnyMillJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "HudsonCircle",
+        "coFailures": 1
+      }
+    ],
+    "RoyanCircle-Chamrajpete": [
+      {
+        "junction": "HudsonCircle",
+        "coFailures": 2
+      }
+    ],
+    "ChandrikaJunction": [
+      {
+        "junction": "IndianExpressJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "N R SquareJunc",
+        "coFailures": 1
+      }
+    ],
+    "K R MarketJunction": [
+      {
+        "junction": "toll gate mysore road",
+        "coFailures": 3
+      },
+      {
+        "junction": "SubbannaJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "LalbaghWestGate",
+        "coFailures": 1
+      },
+      {
+        "junction": "UpparpetJunction",
+        "coFailures": 1
+      }
+    ],
+    "DevangaHostelJunction": [
+      {
+        "junction": "SubedarChatramRd near SheshadripuramPS",
+        "coFailures": 1
+      },
+      {
+        "junction": "BloodBankCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "BegumMahalJunc",
+        "coFailures": 1
+      }
+    ],
+    "BasaweshwaraCircle": [
+      {
+        "junction": "WilsonGarden10thCrossJunc",
+        "coFailures": 1
+      }
+    ],
+    "DickensonRd-AdigasJunc": [
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 1
+      }
+    ],
+    "SagarTheatreJunc": [
+      {
+        "junction": "KrishnaFlourMill",
+        "coFailures": 1
+      }
+    ],
+    "AnandRaoJunction": [
+      {
+        "junction": "Shivajinagar(BRV)Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "PoliceCornerJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "Shivashankara circle",
+        "coFailures": 1
+      },
+      {
+        "junction": "DairyCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "BangaloreBodyBuildersJunc",
+        "coFailures": 1
+      }
+    ],
+    "Minerva Circle": [
+      {
+        "junction": "KhodaysCircle(DV UrsCircle)",
+        "coFailures": 1
+      },
+      {
+        "junction": "Shivajinagar(BRV)Junction",
+        "coFailures": 1
+      }
+    ],
+    "LalbaghWestGate": [
+      {
+        "junction": "toll gate mysore road",
+        "coFailures": 4
+      },
+      {
+        "junction": "K R MarketJunction",
+        "coFailures": 1
+      }
+    ],
+    "LinkRoadMalleswaramJunc": [
+      {
+        "junction": "PoliceTimmaiahCircle(GPO)",
+        "coFailures": 1
+      },
+      {
+        "junction": "UlsoorGateJunc",
+        "coFailures": 1
+      }
+    ],
+    "K H Road-SiddaiahRdJunc(BMTC-BigBazaar)": [
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "LeprosyhospitalJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "N R SquareJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "PoliceCornerJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "toll gate mysore road",
+        "coFailures": 1
+      }
+    ],
+    "KCG HospitalJunction": [
+      {
+        "junction": "LeprosyhospitalJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "Dr TCM RoyanRd near AmbedkarStatue",
+        "coFailures": 1
+      }
+    ],
+    "LalbaghMainGateJunc": [
+      {
+        "junction": "HudsonCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "Basappa Circle Junction",
+        "coFailures": 1
+      }
+    ],
+    "Basappa Circle Junction": [
+      {
+        "junction": "LalbaghMainGateJunc",
+        "coFailures": 1
+      }
+    ],
+    "KarnatakaBhavanJunction": [
+      {
+        "junction": "PoliceCornerJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "BiryandCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "RamaiahCircle-UlsoorPoliceStation",
+        "coFailures": 1
+      }
+    ],
+    "DairyCircle": [
+      {
+        "junction": "AnandRaoJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "Shivashankara circle",
+        "coFailures": 1
+      },
+      {
+        "junction": "TownhallJunction",
+        "coFailures": 1
+      }
+    ],
+    "PrasannaJunction": [
+      {
+        "junction": "LRDE Junction",
+        "coFailures": 1
+      }
+    ],
+    "RamaiahCircle-UlsoorPoliceStation": [
+      {
+        "junction": "KrishnaFlourMill",
+        "coFailures": 1
+      },
+      {
+        "junction": "SubedarChatramRd near SheshadripuramPS",
+        "coFailures": 1
+      },
+      {
+        "junction": "UpparpetJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "MintoJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "ShivandaCircle",
+        "coFailures": 1
+      }
+    ],
+    "VetenaryHospitalJunc-Shivajinagar": [
+      {
+        "junction": "EliteJunc",
+        "coFailures": 1
+      }
+    ],
+    "UpparpetJunction": [
+      {
+        "junction": "K R MarketJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "RamaiahCircle-UlsoorPoliceStation",
+        "coFailures": 1
+      }
+    ],
+    "CoffeeBoardJunc": [
+      {
+        "junction": "toll gate mysore road",
+        "coFailures": 2
+      },
+      {
+        "junction": "MillCornerRd-SampigeRdJunc",
+        "coFailures": 2
+      }
+    ],
+    "Deverabeesanahalli-ORR Junc": [
+      {
+        "junction": "MaratahalliBridgeJunc",
+        "coFailures": 7
+      },
+      {
+        "junction": "Yemalur cross junc",
+        "coFailures": 1
+      },
+      {
+        "junction": "Kadubeesanahalli-ORR Junc",
+        "coFailures": 1
+      }
+    ],
+    "MaratahalliBridgeJunc": [
+      {
+        "junction": "Deverabeesanahalli-ORR Junc",
+        "coFailures": 7
+      },
+      {
+        "junction": "Yemalur cross junc",
+        "coFailures": 2
+      },
+      {
+        "junction": "HoodiJunction",
+        "coFailures": 2
+      }
+    ],
+    "Yemalur cross junc": [
+      {
+        "junction": "MaratahalliBridgeJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "Deverabeesanahalli-ORR Junc",
+        "coFailures": 1
+      }
+    ],
+    "HoodiJunction": [
+      {
+        "junction": "Kadubeesanahalli-ORR Junc",
+        "coFailures": 2
+      },
+      {
+        "junction": "MaratahalliBridgeJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "Bellandur Junction, Outer ring road",
+        "coFailures": 1
+      }
+    ],
+    "Kadubeesanahalli-ORR Junc": [
+      {
+        "junction": "HoodiJunction",
+        "coFailures": 2
+      },
+      {
+        "junction": "Bellandur Junction, Outer ring road",
+        "coFailures": 1
+      },
+      {
+        "junction": "Deverabeesanahalli-ORR Junc",
+        "coFailures": 1
+      }
+    ],
+    "Bellandur Junction, Outer ring road": [
+      {
+        "junction": "HoodiJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "Kadubeesanahalli-ORR Junc",
+        "coFailures": 1
+      }
+    ],
+    "BigBazaar(Whitefield)Junc": [
+      {
+        "junction": "HopefarmJunction",
+        "coFailures": 1
+      }
+    ],
+    "HopefarmJunction": [
+      {
+        "junction": "BigBazaar(Whitefield)Junc",
+        "coFailures": 1
+      },
+      {
+        "junction": "KundanahalliGateJunc",
+        "coFailures": 1
+      }
+    ],
+    "KundanahalliGateJunc": [
+      {
+        "junction": "HopefarmJunction",
+        "coFailures": 1
+      }
+    ],
+    "KuvempuCircle": [
+      {
+        "junction": "VeerannapalyaJunction(BEL,HO)",
+        "coFailures": 1
+      },
+      {
+        "junction": "YelhankaBypass",
+        "coFailures": 1
+      },
+      {
+        "junction": "BEL Circle",
+        "coFailures": 1
+      }
+    ],
+    "VeerannapalyaJunction(BEL,HO)": [
+      {
+        "junction": "Nagavara-ORR Junction",
+        "coFailures": 2
+      },
+      {
+        "junction": "PotteryCircle",
+        "coFailures": 2
+      },
+      {
+        "junction": "KuvempuCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "RamamurthyNagarJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "GovindapuraCross",
+        "coFailures": 1
+      }
+    ],
+    "KalyanNagar-ORR Junc": [
+      {
+        "junction": "JakkurCrossJunction",
+        "coFailures": 1
+      }
+    ],
+    "JakkurCrossJunction": [
+      {
+        "junction": "KalyanNagar-ORR Junc",
+        "coFailures": 1
+      },
+      {
+        "junction": "Narayanapura cross, Hegde nagar",
+        "coFailures": 1
+      }
+    ],
+    "Nagavara-ORR Junction": [
+      {
+        "junction": "Batrayanapura(Amrutahalli)Junction",
+        "coFailures": 3
+      },
+      {
+        "junction": "VeerannapalyaJunction(BEL,HO)",
+        "coFailures": 2
+      },
+      {
+        "junction": "HennurRoad-ORR Junc",
+        "coFailures": 2
+      },
+      {
+        "junction": "HainsJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "Bamboobazar(Shivajinagar)",
+        "coFailures": 2
+      }
+    ],
+    "Batrayanapura(Amrutahalli)Junction": [
+      {
+        "junction": "Nagavara-ORR Junction",
+        "coFailures": 3
+      },
+      {
+        "junction": "BEL Circle",
+        "coFailures": 1
+      },
+      {
+        "junction": "HennurRoad-ORR Junc",
+        "coFailures": 1
+      },
+      {
+        "junction": "HainsJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "SindhiColonyJunction",
+        "coFailures": 1
+      }
+    ],
+    "BEL Circle": [
+      {
+        "junction": "SantheCircle",
+        "coFailures": 3
+      },
+      {
+        "junction": "YelhankaBypass",
+        "coFailures": 2
+      },
+      {
+        "junction": "Batrayanapura(Amrutahalli)Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "KuvempuCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "Chokasandra (Tumkur road)",
+        "coFailures": 1
+      }
+    ],
+    "YelhankaBypass": [
+      {
+        "junction": "BEL Circle",
+        "coFailures": 2
+      },
+      {
+        "junction": "KuvempuCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "HennurRoad-ORR Junc",
+        "coFailures": 1
+      },
+      {
+        "junction": "SindhiColonyJunction",
+        "coFailures": 1
+      }
+    ],
+    "RamamurthyNagarJunction": [
+      {
+        "junction": "VeerannapalyaJunction(BEL,HO)",
+        "coFailures": 1
+      }
+    ],
+    "HennurRoad-ORR Junc": [
+      {
+        "junction": "KodigehalliCross",
+        "coFailures": 4
+      },
+      {
+        "junction": "Nagavara-ORR Junction",
+        "coFailures": 2
+      },
+      {
+        "junction": "Batrayanapura(Amrutahalli)Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "YelhankaBypass",
+        "coFailures": 1
+      },
+      {
+        "junction": "HoramavuJunction",
+        "coFailures": 1
+      }
+    ],
+    "HainsJunc": [
+      {
+        "junction": "Nagavara-ORR Junction",
+        "coFailures": 2
+      },
+      {
+        "junction": "Batrayanapura(Amrutahalli)Junction",
+        "coFailures": 1
+      }
+    ],
+    "KodigehalliCross": [
+      {
+        "junction": "HennurRoad-ORR Junc",
+        "coFailures": 4
+      }
+    ],
+    "GovindapuraCross": [
+      {
+        "junction": "VeerannapalyaJunction(BEL,HO)",
+        "coFailures": 1
+      }
+    ],
+    "PotteryCircle": [
+      {
+        "junction": "VeerannapalyaJunction(BEL,HO)",
+        "coFailures": 2
+      }
+    ],
+    "Narayanapura cross, Hegde nagar": [
+      {
+        "junction": "JakkurCrossJunction",
+        "coFailures": 1
+      }
+    ],
+    "Bamboobazar(Shivajinagar)": [
+      {
+        "junction": "Nagavara-ORR Junction",
+        "coFailures": 2
+      }
+    ],
+    "HennurRd-DavisRdJunction": [
+      {
+        "junction": "HebbalFlyoverJunc",
+        "coFailures": 1
+      }
+    ],
+    "HebbalFlyoverJunc": [
+      {
+        "junction": "HennurRd-DavisRdJunction",
+        "coFailures": 1
+      }
+    ],
+    "HoramavuJunction": [
+      {
+        "junction": "HennurRoad-ORR Junc",
+        "coFailures": 1
+      }
+    ],
+    "Kammanahalli-RingRoadJunction": [
+      {
+        "junction": "VeerannapalyaJunction(BEL,HO)",
+        "coFailures": 1
+      }
+    ],
+    "BagalurCrossJunc": [
+      {
+        "junction": "JalahalliCross(SM Circle)",
+        "coFailures": 5
+      },
+      {
+        "junction": "YelhankaCircle",
+        "coFailures": 2
+      },
+      {
+        "junction": "BEL Circle",
+        "coFailures": 1
+      },
+      {
+        "junction": "SandeepUnnikrishnan-Yelhanka",
+        "coFailures": 1
+      }
+    ],
+    "JalahalliCross(SM Circle)": [
+      {
+        "junction": "BagalurCrossJunc",
+        "coFailures": 5
+      },
+      {
+        "junction": "SRS Peenya Junc",
+        "coFailures": 2
+      },
+      {
+        "junction": "BEL Circle",
+        "coFailures": 1
+      },
+      {
+        "junction": "KogilluCrossJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "GokuldasImagesJunc",
+        "coFailures": 1
+      }
+    ],
+    "YelhankaCircle": [
+      {
+        "junction": "BagalurCrossJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "MekhriCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "SantheCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "KogilluCrossJunc",
+        "coFailures": 1
+      }
+    ],
+    "SantheCircle": [
+      {
+        "junction": "MekhriCircle",
+        "coFailures": 3
+      },
+      {
+        "junction": "BEL Circle",
+        "coFailures": 3
+      },
+      {
+        "junction": "CIL CrossJunction-JayamahalRd",
+        "coFailures": 1
+      },
+      {
+        "junction": "YelhankaCircle",
+        "coFailures": 1
+      }
+    ],
+    "MekhriCircle": [
+      {
+        "junction": "SantheCircle",
+        "coFailures": 3
+      },
+      {
+        "junction": "YeshwanthpuraCircle",
+        "coFailures": 3
+      },
+      {
+        "junction": "VijayanagarBusStandJunction",
+        "coFailures": 2
+      },
+      {
+        "junction": "Chokasandra (Tumkur road)",
+        "coFailures": 1
+      },
+      {
+        "junction": "YelhankaCircle",
+        "coFailures": 1
+      }
+    ],
+    "Chokasandra (Tumkur road)": [
+      {
+        "junction": "BEL Circle",
+        "coFailures": 1
+      },
+      {
+        "junction": "MekhriCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "SandeepUnnikrishnan-Yelhanka",
+        "coFailures": 1
+      },
+      {
+        "junction": "PeenyaPoliceStation",
+        "coFailures": 1
+      },
+      {
+        "junction": "Rajajinagagr1stBlockJunction",
+        "coFailures": 1
+      }
+    ],
+    "SandeepUnnikrishnan-Yelhanka": [
+      {
+        "junction": "BagalurCrossJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "GangammagudiJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "Chokasandra (Tumkur road)",
+        "coFailures": 1
+      }
+    ],
+    "KogilluCrossJunc": [
+      {
+        "junction": "JalahalliCross(SM Circle)",
+        "coFailures": 1
+      },
+      {
+        "junction": "YelhankaCircle",
+        "coFailures": 1
+      }
+    ],
+    "GangammagudiJunc": [
+      {
+        "junction": "SandeepUnnikrishnan-Yelhanka",
+        "coFailures": 1
+      }
+    ],
+    "CIL CrossJunction-JayamahalRd": [
+      {
+        "junction": "SantheCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "MSRamaiahHospitalJunc",
+        "coFailures": 1
+      }
+    ],
+    "BagalakunteCrossJunction": [
+      {
+        "junction": "MSRamaiahHospitalJunc",
+        "coFailures": 1
+      }
+    ],
+    "MSRamaiahHospitalJunc": [
+      {
+        "junction": "BagalakunteCrossJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "CIL CrossJunction-JayamahalRd",
+        "coFailures": 1
+      }
+    ],
+    "28thMainJayanagarJunc": [
+      {
+        "junction": "Arbindo Circle",
+        "coFailures": 2
+      },
+      {
+        "junction": "UttarahalliJunction",
+        "coFailures": 2
+      },
+      {
+        "junction": "JP Nagar 15th cross junction",
+        "coFailures": 1
+      }
+    ],
+    "Arbindo Circle": [
+      {
+        "junction": "28thMainJayanagarJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "MarenahalliRd-18thMainRdJunc",
+        "coFailures": 1
+      }
+    ],
+    "UttarahalliJunction": [
+      {
+        "junction": "JayadevaHospitalJunc",
+        "coFailures": 5
+      },
+      {
+        "junction": "28thMainJayanagarJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "Delmia-Jayanagar",
+        "coFailures": 1
+      }
+    ],
+    "JayadevaHospitalJunc": [
+      {
+        "junction": "UttarahalliJunction",
+        "coFailures": 5
+      },
+      {
+        "junction": "SwagathMainRd-EastEndRdJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "KanakapuraRd-RingRdJunction",
+        "coFailures": 1
+      }
+    ],
+    "SwagathMainRd-EastEndRdJunc": [
+      {
+        "junction": "JayadevaHospitalJunc",
+        "coFailures": 1
+      }
+    ],
+    "MarenahalliRd-18thMainRdJunc": [
+      {
+        "junction": "Arbindo Circle",
+        "coFailures": 1
+      }
+    ],
+    "JP Nagar 15th cross junction": [
+      {
+        "junction": "28thMainJayanagarJunc",
+        "coFailures": 1
+      }
+    ],
+    "Delmia-Jayanagar": [
+      {
+        "junction": "UttarahalliJunction",
+        "coFailures": 1
+      }
+    ],
+    "Jayanagar 4th main,36th cross": [
+      {
+        "junction": "JP Nagar 9th cross-24th main jn",
+        "coFailures": 3
+      }
+    ],
+    "JP Nagar 9th cross-24th main jn": [
+      {
+        "junction": "Jayanagar 4th main,36th cross",
+        "coFailures": 3
+      }
+    ],
+    "BilekahalliJunc": [
+      {
+        "junction": "KoramangalaWaterTankJunc",
+        "coFailures": 4
+      },
+      {
+        "junction": "HulimaveRd-BanneraghattaRdJunc",
+        "coFailures": 3
+      },
+      {
+        "junction": "Bommanahalli",
+        "coFailures": 1
+      },
+      {
+        "junction": "MeenakshiMallJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "Marigowda-TavarkereRdJunc",
+        "coFailures": 1
+      }
+    ],
+    "KoramangalaWaterTankJunc": [
+      {
+        "junction": "AyyappaTempleJunc",
+        "coFailures": 87
+      },
+      {
+        "junction": "Bommanahalli",
+        "coFailures": 37
+      },
+      {
+        "junction": "BilekahalliJunc",
+        "coFailures": 4
+      },
+      {
+        "junction": "ArakereGateJunc",
+        "coFailures": 3
+      },
+      {
+        "junction": "HulimaveRd-BanneraghattaRdJunc",
+        "coFailures": 1
+      }
+    ],
+    "Bommanahalli": [
+      {
+        "junction": "KoramangalaWaterTankJunc",
+        "coFailures": 37
+      },
+      {
+        "junction": "HulimaveRd-BanneraghattaRdJunc",
+        "coFailures": 18
+      },
+      {
+        "junction": "ArakereGateJunc",
+        "coFailures": 12
+      },
+      {
+        "junction": "29thMainRdBTM LayoutJunc",
+        "coFailures": 12
+      },
+      {
+        "junction": "MeenakshiMallJunc",
+        "coFailures": 6
+      }
+    ],
+    "MeenakshiMallJunc": [
+      {
+        "junction": "Bommanahalli",
+        "coFailures": 6
+      },
+      {
+        "junction": "HulimaveRd-BanneraghattaRdJunc",
+        "coFailures": 3
+      },
+      {
+        "junction": "ArakereGateJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "29thMainRdBTM LayoutJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "BilekahalliJunc",
+        "coFailures": 1
+      }
+    ],
+    "SilkBoardJunc": [
+      {
+        "junction": "AyyappaTempleJunc",
+        "coFailures": 35
+      },
+      {
+        "junction": "SarjapurRd-St JohnsRdJunc",
+        "coFailures": 30
+      },
+      {
+        "junction": "BDA Junctio-Koramangala",
+        "coFailures": 20
+      },
+      {
+        "junction": "Bommanahalli",
+        "coFailures": 2
+      },
+      {
+        "junction": "WilsonGarden12thCrossJunc",
+        "coFailures": 1
+      }
+    ],
+    "Kudlu Gate Junc": [
+      {
+        "junction": "SilkBoardJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "UCO Bank(Forum)",
+        "coFailures": 1
+      },
+      {
+        "junction": "NaganathapuraJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "J D MaraJunc",
+        "coFailures": 1
+      }
+    ],
+    "HulimaveRd-BanneraghattaRdJunc": [
+      {
+        "junction": "Bommanahalli",
+        "coFailures": 18
+      },
+      {
+        "junction": "ArakereGateJunc",
+        "coFailures": 6
+      },
+      {
+        "junction": "29thMainRdBTM LayoutJunc",
+        "coFailures": 6
+      },
+      {
+        "junction": "BilekahalliJunc",
+        "coFailures": 3
+      },
+      {
+        "junction": "MeenakshiMallJunc",
+        "coFailures": 3
+      }
+    ],
+    "GarebhavipalyaJunc": [
+      {
+        "junction": "AyyappaTempleJunc",
+        "coFailures": 3
+      },
+      {
+        "junction": "KanakapuraRd-RingRdJunction",
+        "coFailures": 2
+      },
+      {
+        "junction": "HulimaveRd-BanneraghattaRdJunc",
+        "coFailures": 1
+      }
+    ],
+    "AyyappaTempleJunc": [
+      {
+        "junction": "KoramangalaWaterTankJunc",
+        "coFailures": 87
+      },
+      {
+        "junction": "SarjapurRd-St JohnsRdJunc",
+        "coFailures": 44
+      },
+      {
+        "junction": "SilkBoardJunc",
+        "coFailures": 35
+      },
+      {
+        "junction": "BDA Junctio-Koramangala",
+        "coFailures": 32
+      },
+      {
+        "junction": "ArakereGateJunc",
+        "coFailures": 29
+      }
+    ],
+    "WiproJunc-Koramangala": [
+      {
+        "junction": "17th Mn 1st Crs Aishwarya Stores Jn",
+        "coFailures": 1
+      }
+    ],
+    "17th Mn 1st Crs Aishwarya Stores Jn": [
+      {
+        "junction": "WiproJunc-Koramangala",
+        "coFailures": 1
+      }
+    ],
+    "ArakereGateJunc": [
+      {
+        "junction": "AyyappaTempleJunc",
+        "coFailures": 29
+      },
+      {
+        "junction": "Bommanahalli",
+        "coFailures": 12
+      },
+      {
+        "junction": "HulimaveRd-BanneraghattaRdJunc",
+        "coFailures": 6
+      },
+      {
+        "junction": "29thMainRdBTM LayoutJunc",
+        "coFailures": 4
+      },
+      {
+        "junction": "KoramangalaWaterTankJunc",
+        "coFailures": 3
+      }
+    ],
+    "29thMainRdBTM LayoutJunc": [
+      {
+        "junction": "Bommanahalli",
+        "coFailures": 12
+      },
+      {
+        "junction": "HulimaveRd-BanneraghattaRdJunc",
+        "coFailures": 6
+      },
+      {
+        "junction": "ArakereGateJunc",
+        "coFailures": 4
+      },
+      {
+        "junction": "MeenakshiMallJunc",
+        "coFailures": 2
+      }
+    ],
+    "SarjapurRd-St JohnsRdJunc": [
+      {
+        "junction": "AyyappaTempleJunc",
+        "coFailures": 44
+      },
+      {
+        "junction": "SilkBoardJunc",
+        "coFailures": 30
+      },
+      {
+        "junction": "BDA Junctio-Koramangala",
+        "coFailures": 12
+      }
+    ],
+    "BDA Junctio-Koramangala": [
+      {
+        "junction": "AyyappaTempleJunc",
+        "coFailures": 32
+      },
+      {
+        "junction": "SilkBoardJunc",
+        "coFailures": 20
+      },
+      {
+        "junction": "SarjapurRd-St JohnsRdJunc",
+        "coFailures": 12
+      },
+      {
+        "junction": "IbblurJunction'",
+        "coFailures": 2
+      }
+    ],
+    "Marigowda-TavarkereRdJunc": [
+      {
+        "junction": "BucheryJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "BilekahalliJunc",
+        "coFailures": 1
+      }
+    ],
+    "5thMainHSR": [
+      {
+        "junction": "NGV RearGateJunc",
+        "coFailures": 1
+      }
+    ],
+    "NGV RearGateJunc": [
+      {
+        "junction": "5thMainHSR",
+        "coFailures": 1
+      },
+      {
+        "junction": "ArakereGateJunc",
+        "coFailures": 1
+      }
+    ],
+    "UCO Bank(Forum)": [
+      {
+        "junction": "Kudlu Gate Junc",
+        "coFailures": 1
+      }
+    ],
+    "KanakapuraRd-RingRdJunction": [
+      {
+        "junction": "GarebhavipalyaJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "JayadevaHospitalJunc",
+        "coFailures": 1
+      }
+    ],
+    "SagarHospitalJunc": [
+      {
+        "junction": "KoramangalaWaterTankJunc",
+        "coFailures": 1
+      }
+    ],
+    "IbblurJunction'": [
+      {
+        "junction": "BDA Junctio-Koramangala",
+        "coFailures": 2
+      }
+    ],
+    "Krupanidhi College": [
+      {
+        "junction": "Bommanahalli",
+        "coFailures": 1
+      }
+    ],
+    "NaganathapuraJunction": [
+      {
+        "junction": "J D MaraJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "Kudlu Gate Junc",
+        "coFailures": 1
+      }
+    ],
+    "J D MaraJunc": [
+      {
+        "junction": "NaganathapuraJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "Kudlu Gate Junc",
+        "coFailures": 1
+      }
+    ],
+    "Jaipuria-Adugodi": [
+      {
+        "junction": "BilekahalliJunc",
+        "coFailures": 1
+      }
+    ],
+    "PeenyaPoliceStation": [
+      {
+        "junction": "Nagarbhavi",
+        "coFailures": 2
+      },
+      {
+        "junction": "Srigandakaval",
+        "coFailures": 2
+      },
+      {
+        "junction": "Chokasandra (Tumkur road)",
+        "coFailures": 1
+      },
+      {
+        "junction": "GokuldasImagesJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "HesaraghattaJunction",
+        "coFailures": 1
+      }
+    ],
+    "SRS Peenya Junc": [
+      {
+        "junction": "GokuldasImagesJunc",
+        "coFailures": 4
+      },
+      {
+        "junction": "Srigandakaval",
+        "coFailures": 2
+      },
+      {
+        "junction": "RingRoad-UllalJunction",
+        "coFailures": 2
+      },
+      {
+        "junction": "JalahalliCross(SM Circle)",
+        "coFailures": 2
+      },
+      {
+        "junction": "Peenya2ndStageBusStand",
+        "coFailures": 1
+      }
+    ],
+    "Srigandakaval": [
+      {
+        "junction": "SRS Peenya Junc",
+        "coFailures": 2
+      },
+      {
+        "junction": "PeenyaPoliceStation",
+        "coFailures": 2
+      },
+      {
+        "junction": "Nagarbhavi",
+        "coFailures": 1
+      },
+      {
+        "junction": "GokuldasImagesJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "UniversityJunc(Janabharti)",
+        "coFailures": 1
+      }
+    ],
+    "MahalaxmiLayoutEntranceJunc": [
+      {
+        "junction": "GokuldasImagesJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "NTTF JunctionPeenya",
+        "coFailures": 1
+      }
+    ],
+    "GokuldasImagesJunc": [
+      {
+        "junction": "SRS Peenya Junc",
+        "coFailures": 4
+      },
+      {
+        "junction": "RajeshwariJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "MahalaxmiLayoutEntranceJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "FTI Junction(KanteeravaStudio)",
+        "coFailures": 1
+      },
+      {
+        "junction": "ShankarMuttCircle",
+        "coFailures": 1
+      }
+    ],
+    "FTI Junction(KanteeravaStudio)": [
+      {
+        "junction": "GoruguntepalyaJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "GokuldasImagesJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "Sumanhalli",
+        "coFailures": 1
+      },
+      {
+        "junction": "Basveshwarnagar 8th main Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "MysoreRd-RingRdJunc(Nayandanahallii)",
+        "coFailures": 1
+      }
+    ],
+    "Sumanhalli": [
+      {
+        "junction": "RajeshwariJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "FTI Junction(KanteeravaStudio)",
+        "coFailures": 1
+      },
+      {
+        "junction": "Basveshwarnagar 8th main Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "ShankarMuttCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "MekhriCircle",
+        "coFailures": 1
+      }
+    ],
+    "Basveshwarnagar 8th main Junction": [
+      {
+        "junction": "FTI Junction(KanteeravaStudio)",
+        "coFailures": 1
+      },
+      {
+        "junction": "Sumanhalli",
+        "coFailures": 1
+      }
+    ],
+    "ShankarMuttCircle": [
+      {
+        "junction": "GokuldasImagesJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "JalahalliCross(SM Circle)",
+        "coFailures": 1
+      },
+      {
+        "junction": "Sumanhalli",
+        "coFailures": 1
+      },
+      {
+        "junction": "SatteliteBusStandJunc",
+        "coFailures": 1
+      }
+    ],
+    "RajeshwariJunc": [
+      {
+        "junction": "GokuldasImagesJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "Sumanhalli",
+        "coFailures": 2
+      },
+      {
+        "junction": "TumkurRdMarappanapalyaJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "UniversityJunc(Janabharti)",
+        "coFailures": 2
+      },
+      {
+        "junction": "MysoreRd-RingRdJunc(Nayandanahallii)",
+        "coFailures": 1
+      }
+    ],
+    "GoruguntepalyaJunc": [
+      {
+        "junction": "FTI Junction(KanteeravaStudio)",
+        "coFailures": 2
+      },
+      {
+        "junction": "TumkurRdMarappanapalyaJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "MysoreRd-RingRdJunc(Nayandanahallii)",
+        "coFailures": 1
+      },
+      {
+        "junction": "MysoreRd--MadhuPetrolBunkJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "ModiHospital",
+        "coFailures": 1
+      }
+    ],
+    "HesaraghattaJunction": [
+      {
+        "junction": "TumkurRdMarappanapalyaJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "GokuldasImagesJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "FTI Junction(KanteeravaStudio)",
+        "coFailures": 1
+      },
+      {
+        "junction": "MysoreRd-RingRdJunc(Nayandanahallii)",
+        "coFailures": 1
+      },
+      {
+        "junction": "PeenyaPoliceStation",
+        "coFailures": 1
+      }
+    ],
+    "TumkurRdMarappanapalyaJunc": [
+      {
+        "junction": "GoruguntepalyaJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "RajeshwariJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "HesaraghattaJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "FTI Junction(KanteeravaStudio)",
+        "coFailures": 1
+      },
+      {
+        "junction": "GokuldasImagesJunc",
+        "coFailures": 1
+      }
+    ],
+    "MysoreRd-RingRdJunc(Nayandanahallii)": [
+      {
+        "junction": "FTI Junction(KanteeravaStudio)",
+        "coFailures": 1
+      },
+      {
+        "junction": "HesaraghattaJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "GoruguntepalyaJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "RajeshwariJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "Srigandakaval",
+        "coFailures": 1
+      }
+    ],
+    "Nagarbhavi": [
+      {
+        "junction": "PeenyaPoliceStation",
+        "coFailures": 2
+      },
+      {
+        "junction": "FTI Junction(KanteeravaStudio)",
+        "coFailures": 1
+      },
+      {
+        "junction": "Srigandakaval",
+        "coFailures": 1
+      },
+      {
+        "junction": "GokuldasImagesJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "UniversityJunc(Janabharti)",
+        "coFailures": 1
+      }
+    ],
+    "NTTF JunctionPeenya": [
+      {
+        "junction": "MahalaxmiLayoutEntranceJunc",
+        "coFailures": 1
+      }
+    ],
+    "Peenya2ndStageBusStand": [
+      {
+        "junction": "SRS Peenya Junc",
+        "coFailures": 1
+      }
+    ],
+    "UniversityJunc(Janabharti)": [
+      {
+        "junction": "RajeshwariJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "FTI Junction(KanteeravaStudio)",
+        "coFailures": 1
+      },
+      {
+        "junction": "Nagarbhavi",
+        "coFailures": 1
+      },
+      {
+        "junction": "GokuldasImagesJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "Srigandakaval",
+        "coFailures": 1
+      }
+    ],
+    "RingRoad-UllalJunction": [
+      {
+        "junction": "SRS Peenya Junc",
+        "coFailures": 2
+      },
+      {
+        "junction": "RajeshwariJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "GoruguntepalyaJunc",
+        "coFailures": 1
+      }
+    ],
+    "MysoreRd--MadhuPetrolBunkJunction": [
+      {
+        "junction": "GoruguntepalyaJunc",
+        "coFailures": 1
+      }
+    ],
+    "ModiHospital": [
+      {
+        "junction": "GoruguntepalyaJunc",
+        "coFailures": 1
+      }
+    ],
+    "ItmaduJunction": [
+      {
+        "junction": "GoruguntepalyaJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "DhobiGhatJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "NCERT Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "BanashankariBusStandJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "MS RamaiahJunc(TollGate)",
+        "coFailures": 1
+      }
+    ],
+    "Rajajinagagr1stBlockJunction": [
+      {
+        "junction": "Chokasandra (Tumkur road)",
+        "coFailures": 1
+      }
+    ],
+    "KatriguppeJunction": [
+      {
+        "junction": "SRS Peenya Junc",
+        "coFailures": 1
+      },
+      {
+        "junction": "NCERT Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "SadashivnagarJunc",
+        "coFailures": 1
+      }
+    ],
+    "Dr RajkumarRd-10thCrossRdJunc": [
+      {
+        "junction": "Srigandakaval",
+        "coFailures": 1
+      },
+      {
+        "junction": "MysoreRd-RingRdJunc(Nayandanahallii)",
+        "coFailures": 1
+      },
+      {
+        "junction": "UniversityJunc(Janabharti)",
+        "coFailures": 1
+      },
+      {
+        "junction": "TumkurRdMarappanapalyaJunc",
+        "coFailures": 1
+      }
+    ],
+    "Malleswaram18thCrossRd-SampigeRdJunc": [
+      {
+        "junction": "MysoreRd-RingRdJunc(Nayandanahallii)",
+        "coFailures": 1
+      },
+      {
+        "junction": "YeshwanthpuraCircle",
+        "coFailures": 1
+      }
+    ],
+    "YeshwanthpuraCircle": [
+      {
+        "junction": "MekhriCircle",
+        "coFailures": 3
+      },
+      {
+        "junction": "Malleswaram18thCrossRd-SampigeRdJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "MysoreRd-RingRdJunc(Nayandanahallii)",
+        "coFailures": 1
+      },
+      {
+        "junction": "KIMCO Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "SatteliteBusStandJunc",
+        "coFailures": 1
+      }
+    ],
+    "SatteliteBusStandJunc": [
+      {
+        "junction": "KIMCO Junction",
+        "coFailures": 5
+      },
+      {
+        "junction": "SadashivnagarJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "MekhriCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "RajajinagarEntranceJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "Fire Force Junction",
+        "coFailures": 1
+      }
+    ],
+    "AttiguppeCircleJunction": [
+      {
+        "junction": "BanashankariBusStandJunc",
+        "coFailures": 1
+      }
+    ],
+    "BanashankariBusStandJunc": [
+      {
+        "junction": "AttiguppeCircleJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "ItmaduJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "SadashivnagarJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "MysoreRd-RingRdJunc(Nayandanahallii)",
+        "coFailures": 1
+      },
+      {
+        "junction": "DMRoadJunc(Basavangudi)",
+        "coFailures": 1
+      }
+    ],
+    "KIMCO Junction": [
+      {
+        "junction": "SatteliteBusStandJunc",
+        "coFailures": 5
+      },
+      {
+        "junction": "JaiMuniRaoCircle",
+        "coFailures": 2
+      },
+      {
+        "junction": "MS RamaiahJunc(TollGate)",
+        "coFailures": 2
+      },
+      {
+        "junction": "YeshwanthpuraCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "Rajajinagar19thMainJunc",
+        "coFailures": 1
+      }
+    ],
+    "RajajinagarEntranceJunction": [
+      {
+        "junction": "SatteliteBusStandJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "KIMCO Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "TumkurRdMarappanapalyaJunc",
+        "coFailures": 1
+      }
+    ],
+    "Fire Force Junction": [
+      {
+        "junction": "SatteliteBusStandJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "BhashyamCircle",
+        "coFailures": 1
+      }
+    ],
+    "DhobiGhatJunc": [
+      {
+        "junction": "ItmaduJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "5thMainRPC Layout-Vijayanagar",
+        "coFailures": 1
+      }
+    ],
+    "NCERT Junction": [
+      {
+        "junction": "KatriguppeJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "ItmaduJunction",
+        "coFailures": 1
+      }
+    ],
+    "KadirenahalliJunction": [
+      {
+        "junction": "MekhriCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "TataInstituteCircle",
+        "coFailures": 1
+      }
+    ],
+    "TataInstituteCircle": [
+      {
+        "junction": "VijayanagarBusStandJunction",
+        "coFailures": 2
+      },
+      {
+        "junction": "KadirenahalliJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "MekhriCircle",
+        "coFailures": 1
+      }
+    ],
+    "Rajajinagar19thMainJunc": [
+      {
+        "junction": "KIMCO Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "MekhriCircle",
+        "coFailures": 1
+      }
+    ],
+    "JaiMuniRaoCircle": [
+      {
+        "junction": "KIMCO Junction",
+        "coFailures": 2
+      },
+      {
+        "junction": "toll gate mysore road",
+        "coFailures": 2
+      }
+    ],
+    "SadashivnagarJunc": [
+      {
+        "junction": "SatteliteBusStandJunc",
+        "coFailures": 2
+      },
+      {
+        "junction": "KatriguppeJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "BanashankariBusStandJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "KIMCO Junction",
+        "coFailures": 1
+      }
+    ],
+    "MS RamaiahJunc(TollGate)": [
+      {
+        "junction": "KIMCO Junction",
+        "coFailures": 2
+      },
+      {
+        "junction": "SatteliteBusStandJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "ItmaduJunction",
+        "coFailures": 1
+      },
+      {
+        "junction": "MargosaRd-18thCrossJunc",
+        "coFailures": 1
+      }
+    ],
+    "BhashyamCircle-SadashivNagar": [
+      {
+        "junction": "BhashyamCircle",
+        "coFailures": 1
+      },
+      {
+        "junction": "KIMCO Junction",
+        "coFailures": 1
+      }
+    ],
+    "BhashyamCircle": [
+      {
+        "junction": "BhashyamCircle-SadashivNagar",
+        "coFailures": 1
+      },
+      {
+        "junction": "TumkurRdMarappanapalyaJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "Fire Force Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "YeshwanthpuraCircle",
+        "coFailures": 1
+      }
+    ],
+    "KamakyaJunction": [
+      {
+        "junction": "SatteliteBusStandJunc",
+        "coFailures": 1
+      }
+    ],
+    "CholurpalyaJunction(MagadiRd)": [
+      {
+        "junction": "YeshwanthpuraCircle",
+        "coFailures": 1
+      }
+    ],
+    "RajarajeshwariKalyanaMantapaJunc": [
+      {
+        "junction": "SatteliteBusStandJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "VijayanagarBusStandJunction",
+        "coFailures": 1
+      }
+    ],
+    "VijayanagarBusStandJunction": [
+      {
+        "junction": "MekhriCircle",
+        "coFailures": 2
+      },
+      {
+        "junction": "TataInstituteCircle",
+        "coFailures": 2
+      },
+      {
+        "junction": "RajarajeshwariKalyanaMantapaJunc",
+        "coFailures": 1
+      }
+    ],
+    "DMRoadJunc(Basavangudi)": [
+      {
+        "junction": "BanashankariBusStandJunc",
+        "coFailures": 1
+      }
+    ],
+    "YediyurMeternityHospital": [
+      {
+        "junction": "KIMCO Junction",
+        "coFailures": 1
+      },
+      {
+        "junction": "SatteliteBusStandJunc",
+        "coFailures": 1
+      }
+    ],
+    "5thMainRPC Layout-Vijayanagar": [
+      {
+        "junction": "DhobiGhatJunc",
+        "coFailures": 1
+      },
+      {
+        "junction": "MysoreRd-RingRdJunc(Nayandanahallii)",
+        "coFailures": 1
+      },
+      {
+        "junction": "YeshwanthpuraCircle",
+        "coFailures": 1
+      }
+    ],
+    "NavarangBarJunc-Dr RajkumarRd": [
+      {
+        "junction": "YeshwanthpuraCircle",
+        "coFailures": 1
+      }
+    ],
+    "MargosaRd-18thCrossJunc": [
+      {
+        "junction": "BasavamantapaJunc-Dr RajkumarRd",
+        "coFailures": 1
+      },
+      {
+        "junction": "MS RamaiahJunc(TollGate)",
+        "coFailures": 1
+      }
+    ],
+    "BasavamantapaJunc-Dr RajkumarRd": [
+      {
+        "junction": "MargosaRd-18thCrossJunc",
+        "coFailures": 1
+      }
+    ]
+  }
+}
