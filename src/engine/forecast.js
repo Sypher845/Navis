@@ -13,8 +13,7 @@
  * 5. Estimate manpower needs from resolution time patterns
  */
 
-import { getIncidentsNear, queryIncidents, getMedianResolution, getMeta, getAllIncidents } from '../data/index.js';
-import { haversine } from '../utils/geo.js';
+import { getIncidentsNear, getMeta, getAllIncidents } from '../data/index.js';
 
 /**
  * Compute the number of calendar days the dataset spans.

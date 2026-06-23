@@ -2,10 +2,10 @@
  * engine/resource.js — Resource deployment recommender
  *
  * v2: Junction-based barricading, data-driven diversions via corridor
- * co-occurrence, police station routing, and decision-tree-scaled manpower.
+ * co-occurrence, police station routing, and decision-engine-scaled manpower.
  */
 
-import { getMedianResolution, getIncidentsNear, getAllIncidents } from '../data/index.js';
+import { getMedianResolution, getIncidentsNear } from '../data/index.js';
 
 /** Reference to loaded model intelligence (set externally). */
 let _modelData = null;
@@ -48,7 +48,7 @@ export function recommendResources(prediction, lat, lng, eventCause, decision) {
 }
 
 
-// --- Manpower (decision-tree-scaled) ---
+// --- Manpower (decision-engine-scaled) ---
 
 const MANPOWER_PROFILES = {
   'monitor':      { baseTP: 2,  cdScale: 0,   volScale: 0,   closureBonus: 0   },
@@ -169,7 +169,7 @@ function junctionBarricadesFromIncidents(lat, lng) {
 function computeSmartDiversions(affectedCorridors) {
   const diversions = _modelData ? _modelData.corridorDiversions : null;
 
-  if (diversions) {
+  if (diversions && Object.keys(diversions).length > 0) {
     return smartDiversionsFromModel(affectedCorridors, diversions);
   }
 

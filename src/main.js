@@ -13,7 +13,7 @@ import { loadData, getAllIncidents, getCauseDistribution, getHourlyDistribution,
 import { predictImpact } from './engine/forecast.js';
 import { recommendResources, setModelData } from './engine/resource.js';
 import { analyzeEvent, getPastEvents } from './engine/learning.js';
-import { loadDecisionTree, decide } from './engine/decision.js';
+import { loadDecisionEngine, decide } from './engine/decision.js';
 import * as Simulator from './engine/simulator.js';
 import { CAUSE_COLORS, CAUSE_LABELS, BENGALURU_CENTER } from './config.js';
 import { formatTime, formatDuration, hourLabel } from './utils/time.js';
@@ -29,12 +29,11 @@ let charts = {};
 
 // --- Bootstrap ---
 async function init() {
-  const [meta, treeData] = await Promise.all([loadData(), loadDecisionTree()]);
-  console.log('Decision tree loaded:', treeData);
+  const [meta, engineData] = await Promise.all([loadData(), loadDecisionEngine()]);
 
   // Wire model intelligence data into the resource engine
-  if (treeData && treeData._rawModelData) {
-    setModelData(treeData._rawModelData);
+  if (engineData && engineData._rawModelData) {
+    setModelData(engineData._rawModelData);
   }
 
   initMap();
@@ -184,6 +183,7 @@ function setupModeSwitch() {
     document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     currentMode = btn.dataset.mode;
+    clearImpactLayers();
     renderSidebar();
     
     if (currentMode === 'simulator') {
@@ -410,7 +410,7 @@ function attachSidebarListeners() {
           // Redefine getElementById temporarily? No, renderForecastResult uses document.getElementById('forecast-result')
           // Let's just create the DOM node with that ID inside sim-result
           renderForecastResult(res.prediction, res.resources, res.decision);
-          renderImpactZones(res.prediction);
+          renderImpactZones(res.prediction, { lat: res.incident.lat, lng: res.incident.lng });
           renderBarricadeMarkers(res.resources.barricadePoints);
           renderRightPanel(res.prediction, res.resources, res.decision);
         }
@@ -483,7 +483,7 @@ function runForecast() {
 
   // Statistical impact prediction
   const prediction = predictImpact(cause, selectedLocation.lat, selectedLocation.lng, hour, day, duration);
-  // ML decision tree -- what action should we take?
+  // ML decision engine -- what action should we take?
   const corridor = findNearestCorridor(selectedLocation.lat, selectedLocation.lng);
   const zone = findNearestZone(selectedLocation.lat, selectedLocation.lng);
   const eventType = cause === 'construction' ? 'planned' : 'unplanned';
@@ -492,7 +492,7 @@ function runForecast() {
   const resources = recommendResources(prediction, selectedLocation.lat, selectedLocation.lng, cause, decision);
 
   renderForecastResult(prediction, resources, decision);
-  renderImpactZones(prediction);
+  renderImpactZones(prediction, selectedLocation);
   renderBarricadeMarkers(resources.barricadePoints);
   renderRightPanel(prediction, resources, decision);
 }
@@ -599,13 +599,13 @@ function renderForecastResult(prediction, resources, decision) {
     </div>`;
 }
 
-function renderImpactZones(prediction) {
+function renderImpactZones(prediction, center = selectedLocation) {
   clearImpactLayers();
-  if (!selectedLocation) return;
+  if (!center) return;
 
   const colors = { critical: '#ef4444', high: '#fb923c', moderate: '#fbbf24' };
   for (const zone of prediction.impactZones) {
-    const circle = L.circle([selectedLocation.lat, selectedLocation.lng], {
+    const circle = L.circle([center.lat, center.lng], {
       radius: zone.radiusKm * 1000,
       fillColor: colors[zone.severity] || '#3b82f6',
       fillOpacity: zone.opacity,

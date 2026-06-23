@@ -28,7 +28,7 @@ export function runSimulationFrame() {
   // JS getDay() is 0 (Sun) to 6 (Sat). Our Python code used 0 (Mon) to 6 (Sun).
   const pythonDay = day === 0 ? 6 : day - 1;
 
-  // ML decision tree -- what action should we take?
+  // ML decision engine -- what action should we take?
   const decision = decide(
     currentIncident.cause, 
     currentIncident.corridor, 

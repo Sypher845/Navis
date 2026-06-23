@@ -15,7 +15,7 @@ let _metrics = null;
 /**
  * Initialize the decision engine using the compiled artifacts.
  */
-export async function loadDecisionTree() {
+export async function loadDecisionEngine() {
   _metrics = explainData.metrics;
   _actionStats = explainData.metrics.perClass;
 
@@ -112,7 +112,7 @@ export function decide(cause, corridor, zone, hour, dayOfWeek, eventType, lat, l
   
   // Engineered features (from baselines)
   const med_res = 60.0;
-  const hour_block = Math.floor(hour / 4);
+  const hour_block = Math.floor(hour / 4) * 4;
   
   features['junction_freq'] = getBaseline('junctionBaselines', junction, 'freq', 0);
   features['junction_avg_res'] = getBaseline('junctionBaselines', junction, 'avg_res', med_res);
